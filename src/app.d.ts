@@ -5,7 +5,10 @@ declare global {
 		// interface Error {}
 		// interface Locals {}
 		// interface PageData {}
-		// interface PageState {}
+		interface PageState {
+			/** The full-screen Now Playing view is open (phones). */
+			nowPlaying?: boolean;
+		}
 		// interface Platform {}
 	}
 }

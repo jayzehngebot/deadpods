@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { pushState } from '$app/navigation';
 	import { resolve } from '$app/paths';
 	import Icon from './Icon.svelte';
 	import { player } from '#lib/player/player.svelte.js';
@@ -10,6 +11,12 @@
 	const track = $derived(player.track);
 	const shown = $derived(dragging ?? player.currentTime);
 	const total = $derived(player.duration || track?.durationSec || 0);
+	const progress = $derived(total > 0 ? Math.min(1, shown / total) : 0);
+
+	/** Phones: open the full-screen player. Back (gesture or button) closes it. */
+	function showPlayer() {
+		pushState('', { nowPlaying: true });
+	}
 
 	// Reserve space at the bottom of the page so the bar never covers content.
 	$effect(() => {
@@ -31,30 +38,32 @@
 
 {#if player.active && track}
 	<section class="bar" aria-label="Audio player" bind:this={bar}>
+		<div class="progress" aria-hidden="true">
+			<span style:transform={`scaleX(${progress})`}></span>
+		</div>
 		<div class="inner wrap">
-			<a
-				class="now"
-				href={resolve('/[show]/[episode]', { show: track.showSlug, episode: track.episodeSlug })}
-			>
-				{#if track.artwork}
-					<img src={track.artwork} alt="" width="48" height="48" loading="lazy" />
-				{/if}
-				<span class="text">
-					<span class="title">{track.title}</span>
-					<span class="show muted">
-						{track.showTitle}{#if player.mode === 'radio'}&nbsp;· <span class="live">Radio</span
-							>{/if}
+			<div class="now-wrap">
+				<a
+					class="now"
+					href={resolve('/[show]/[episode]', { show: track.showSlug, episode: track.episodeSlug })}
+				>
+					{#if track.artwork}
+						<img src={track.artwork} alt="" width="48" height="48" loading="lazy" />
+					{/if}
+					<span class="text">
+						<span class="title">{track.title}</span>
+						<span class="show muted">
+							{track.showTitle}{#if player.mode === 'radio'}&nbsp;· <span class="live">Radio</span
+								>{/if}
+						</span>
 					</span>
-				</span>
-			</a>
+				</a>
+				<!-- Phones: the whole now-playing area opens the full-screen player. -->
+				<button type="button" class="expand" aria-label="Show player" onclick={showPlayer}></button>
+			</div>
 
 			<div class="controls">
-				<button
-					type="button"
-					class="ctl hide-sm"
-					aria-label="Previous"
-					onclick={() => player.previous()}
-				>
+				<button type="button" class="ctl" aria-label="Previous" onclick={() => player.previous()}>
 					<Icon name="prev" size={20} />
 				</button>
 				<button
@@ -67,7 +76,7 @@
 				</button>
 				<button
 					type="button"
-					class="ctl main"
+					class="ctl main mini"
 					aria-label={player.playing ? 'Pause' : 'Play'}
 					onclick={() => player.toggle()}
 				>
@@ -87,7 +96,7 @@
 				</button>
 				<button
 					type="button"
-					class="ctl"
+					class="ctl mini"
 					aria-label="Next episode"
 					disabled={!player.hasNext}
 					onclick={() => player.next()}
@@ -144,8 +153,16 @@
 		gap: 6px 16px;
 		align-items: center;
 	}
-	.now {
+	.now-wrap {
 		grid-area: now;
+		position: relative;
+		min-width: 0;
+	}
+	.progress,
+	.expand {
+		display: none;
+	}
+	.now {
 		display: flex;
 		align-items: center;
 		gap: 12px;
@@ -244,16 +261,43 @@
 		height: 0;
 		overflow: hidden;
 	}
+	/* Phones: one-row mini player. Everything else lives in Now Playing. */
 	@media (max-width: 640px) {
+		.bar {
+			padding-top: 8px;
+		}
 		.inner {
-			grid-template-columns: minmax(0, 1fr);
-			grid-template-areas: 'now' 'seek' 'controls';
+			grid-template-columns: minmax(0, 1fr) auto;
+			grid-template-areas: 'now controls';
 		}
-		.controls {
-			justify-content: center;
-		}
-		.hide-sm {
+		.seek,
+		.ctl:not(.mini) {
 			display: none;
+		}
+		.ctl.main {
+			width: 44px;
+			height: 44px;
+		}
+		.progress {
+			display: block;
+			position: absolute;
+			inset: 0 0 auto 0;
+			height: 2px;
+			background: var(--border);
+		}
+		.progress span {
+			display: block;
+			height: 100%;
+			background: var(--accent);
+			transform-origin: left;
+		}
+		.expand {
+			display: block;
+			position: absolute;
+			inset: 0;
+			border: none;
+			background: none;
+			border-radius: 8px;
 		}
 	}
 </style>
