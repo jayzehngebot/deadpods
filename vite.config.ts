@@ -14,6 +14,12 @@ export default defineConfig({
 			paths: { origin: 'https://deadpods.com' }
 		})
 	],
+	// Workaround: Rolldown's tsconfig lookup fails on its own virtual runtime
+	// ("Could not resolve 'node:module' in \0rolldown/runtime.js") when Vite
+	// pre-bundles SSR deps. Deps don't need tsconfig, so turn it off there.
+	ssr: {
+		optimizeDeps: { rolldownOptions: { tsconfig: false } }
+	},
 	test: {
 		expect: { requireAssertions: true },
 		projects: [
