@@ -3,6 +3,7 @@
 	import { onMount } from 'svelte';
 	import { resolve } from '$app/paths';
 	import favicon from '#lib/assets/favicon.svg';
+	import NowPlaying from '#lib/components/NowPlaying.svelte';
 	import PlayerBar from '#lib/components/PlayerBar.svelte';
 	import { player } from '#lib/player/player.svelte.js';
 	import type { LayoutProps } from './$types';
@@ -45,6 +46,7 @@
 
 <!-- Lives in the layout, so playback continues while you browse. -->
 <PlayerBar />
+<NowPlaying />
 
 <style>
 	.skip:focus {
