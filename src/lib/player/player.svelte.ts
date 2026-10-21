@@ -215,6 +215,7 @@ class Player {
 	}
 
 	#start() {
+		this.#claimAudioSession();
 		const a = this.#el;
 		this.loading = true;
 		a.play().catch((err: DOMException) => {
@@ -228,6 +229,21 @@ class Player {
 			// for broken audio) are handled by the element's `error` event instead,
 			// so a single failure isn't handled twice.
 		});
+	}
+
+	/**
+	 * iOS Safari 16.4+: declare a media "playback" audio session so audio keeps
+	 * going with the screen locked, including in the home-screen app.
+	 * Feature-detected; other browsers have no audioSession.
+	 */
+	#claimAudioSession() {
+		const session = (navigator as Navigator & { audioSession?: { type: string } }).audioSession;
+		if (!session || session.type === 'playback') return;
+		try {
+			session.type = 'playback';
+		} catch {
+			// Read-only or unsupported value: keep the default session.
+		}
 	}
 
 	#onEnded() {
