@@ -2,6 +2,84 @@
 	"$comment": "Curated list. Edited by hand for now; the Google Sheet sync will generate this file later. Episode picks match on a case-insensitive piece of the episode title (or an exact guid). Run `npm run snapshot` after editing.",
 	"shows": [
 		{
+			"slug": "anxious-machine",
+			"title": "Anxious Machine",
+			"hosts": "Rob McGinley Myers",
+			"network": "The Heard",
+			"years": "2015–2020",
+			"status": "ended",
+			"genre": "Documentary",
+			"feedUrl": "https://rss.libsyn.com/shows/58763/destinations/223761.xml",
+			"blurb": "Small, carefully made true stories about modern humans and the machines, habits and histories that shape them.",
+			"picks": [
+				{
+					"title": "All My Days Have Been Guns",
+					"note": "Bernard, his father's gas station, and one incident with a gun that changed everything."
+				},
+				{
+					"title": "Inbox Time Machine",
+					"note": "After a divorce, email became the one private line between a daughter and her father."
+				},
+				{
+					"title": "Didn't Want to Be Conscious",
+					"note": "The long history of getting intoxicated, told through one young woman's life."
+				}
+			]
+		},
+		{
+			"slug": "startup",
+			"title": "StartUp",
+			"hosts": "Alex Blumberg",
+			"network": "Gimlet",
+			"years": "2014–2020",
+			"status": "ended",
+			"genre": "Documentary",
+			"feedUrl": "https://feeds.megaphone.fm/startup",
+			"blurb": "Season one records, in real time, a public radio producer trying to start a podcast company. That company became Gimlet. Best heard in order.",
+			"picks": [
+				{
+					"title": "Gimlet 1",
+					"note": "Alex Blumberg pitches his podcast company to a billionaire investor, badly."
+				},
+				{
+					"title": "Gimlet 2",
+					"note": "Is podcasting a real business, or a hobby with ads?"
+				},
+				{
+					"title": "Gimlet 3",
+					"note": "Splitting equity with a co-founder before there's anything to split."
+				},
+				{
+					"title": "Gimlet 4",
+					"note": "What Alex is risking, as his wife weighs in."
+				},
+				{
+					"title": "Gimlet 5",
+					"note": "Naming the company turns into an ordeal. Listeners help."
+				},
+				{
+					"title": "Gimlet 6",
+					"note": "Putting a dollar value on an idea and a microphone."
+				},
+				{
+					"title": "Gimlet 7",
+					"note": "Raising money from the audience itself."
+				},
+				{
+					"title": "Gimlet 8",
+					"note": "Building the company's first new show."
+				},
+				{
+					"title": "Gimlet 9",
+					"note": "A misstep, and an on-air reckoning with it."
+				},
+				{
+					"title": "Gimlet 10",
+					"note": "The season ends: art versus business, and what comes next."
+				}
+			]
+		},
+		{
 			"slug": "mystery-show",
 			"title": "Mystery Show",
 			"hosts": "Starlee Kine",
@@ -210,6 +288,172 @@
 			"picks": [
 				{ "title": "In the Beginning", "note": "Episode one. Settle in." },
 				{ "title": "The Seven Kings of Rome", "note": "The legendary kings, before the Republic." }
+			]
+		},
+		{
+			"slug": "uncivil",
+			"title": "Uncivil",
+			"hosts": "Jack Hitt, Chenjerai Kumanyika",
+			"network": "Gimlet",
+			"years": "2017–2018",
+			"status": "ended",
+			"genre": "History",
+			"feedUrl": "https://feeds.megaphone.fm/uncivil",
+			"blurb": "Stories from the Civil War that got left out of the official version, and what they say about the country now.",
+			"picks": [
+				{
+					"title": "The Raid",
+					"note": "The pilot: Harriet Tubman and a raid on the Combahee River."
+				},
+				{
+					"title": "The Deed",
+					"note": "Land promised to freed people, and how it was taken back."
+				}
+			]
+		},
+		{
+			"slug": "the-habitat",
+			"title": "The Habitat",
+			"hosts": "Lynn Levy",
+			"network": "Gimlet",
+			"years": "2018",
+			"status": "complete",
+			"genre": "Documentary",
+			"feedUrl": "https://feeds.megaphone.fm/thehabitat-spot",
+			"blurb": "Six strangers live for a year in a fake Mars base on a Hawaiian volcano, recording their own lives. Seven episodes, best heard in order.",
+			"picks": [
+				{
+					"title": "Episode 1",
+					"note": "Part 1 of 7. The crew goes in."
+				},
+				{
+					"title": "Episode 2",
+					"note": "Part 2 of 7."
+				},
+				{
+					"title": "Episode 3",
+					"note": "Part 3 of 7."
+				},
+				{
+					"title": "Episode 4",
+					"note": "Part 4 of 7."
+				},
+				{
+					"title": "Episode 5",
+					"note": "Part 5 of 7."
+				},
+				{
+					"title": "Episode 6",
+					"note": "Part 6 of 7."
+				},
+				{
+					"title": "Episode 7",
+					"note": "Part 7 of 7. The year ends."
+				}
+			]
+		},
+		{
+			"slug": "everything-is-alive",
+			"title": "Everything Is Alive",
+			"hosts": "Ian Chillag",
+			"network": "Radiotopia",
+			"years": "2018–2024",
+			"status": "ended",
+			"genre": "Comedy",
+			"feedUrl": "https://feeds.feedburner.com/everythingisalive",
+			"blurb": "Unscripted interviews with inanimate objects, played by people. Funny, then suddenly not.",
+			"picks": [
+				{
+					"title": "Louis, Can of Cola",
+					"note": "The first episode: an interview with a can of cola."
+				},
+				{
+					"title": "Maeve, Lamppost",
+					"note": "An interview with a lamppost."
+				},
+				{
+					"title": "Tara, Bar of Soap",
+					"note": "An interview with a bar of soap."
+				}
+			]
+		},
+		{
+			"slug": "undiscovered",
+			"title": "Undiscovered",
+			"hosts": "Elah Feder, Annie Minoff",
+			"network": "WNYC Studios / Science Friday",
+			"years": "2017–2019",
+			"status": "ended",
+			"genre": "Science",
+			"feedUrl": "https://feeds.simplecast.com/6VBaBewk",
+			"blurb": "The messy, human side of how science actually gets done.",
+			"picks": [
+				{
+					"title": "Kurt Vonnegut and the Rainmakers",
+					"note": "Kurt Vonnegut's brother, and the scientists who tried to make it rain."
+				},
+				{
+					"title": "The Wastebook",
+					"note": "What happens when a politician mocks your research as waste."
+				},
+				{
+					"title": "I, Robovie",
+					"note": "Children, a robot, and what we owe machines."
+				}
+			]
+		},
+		{
+			"slug": "theory-of-everything",
+			"title": "Benjamen Walker's Theory of Everything",
+			"hosts": "Benjamen Walker",
+			"network": "Radiotopia",
+			"years": "2013–2024",
+			"status": "ended",
+			"genre": "Documentary",
+			"feedUrl": "https://feeds.feedburner.com/TOE",
+			"blurb": "Documentary, essay and fiction blended until you're not sure which is which. That's the point.",
+			"picks": [
+				{
+					"title": "Instaserfs (I of III)",
+					"note": "Living on gig-economy apps. Part one of three."
+				},
+				{
+					"title": "Instaserfs (II of III)",
+					"note": "Part two."
+				},
+				{
+					"title": "Instaserfs (III of III)",
+					"note": "Part three."
+				},
+				{
+					"title": "Secret Histories of Podcasting",
+					"note": "The medium looks back at itself."
+				}
+			]
+		},
+		{
+			"slug": "here-be-monsters",
+			"title": "Here Be Monsters",
+			"hosts": "Jeff Emtman",
+			"network": "Independent (formerly KCRW)",
+			"years": "2012–2025",
+			"status": "ended",
+			"genre": "Documentary",
+			"feedUrl": "https://www.hbmpodcast.com/podcast?format=rss",
+			"blurb": "Thirteen years of stories about fear, the unknown and the strange corners of ordinary life.",
+			"picks": [
+				{
+					"title": "Do Crows Mourn Their Dead?",
+					"note": "A question about crows, followed wherever it goes."
+				},
+				{
+					"title": "Ghost Tape Number Ten",
+					"note": "A wartime recording meant to sound like the dead."
+				},
+				{
+					"title": "Final Haircuts",
+					"note": "The last episode."
+				}
 			]
 		}
 	]

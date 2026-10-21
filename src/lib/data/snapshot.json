@@ -1,6 +1,192 @@
 {
-	"generatedAt": "2026-10-21T00:32:55.101Z",
+	"generatedAt": "2026-10-21T20:06:44.006Z",
 	"shows": [
+		{
+			"slug": "anxious-machine",
+			"title": "Anxious Machine",
+			"hosts": "Rob McGinley Myers",
+			"network": "The Heard",
+			"years": "2015–2020",
+			"status": "ended",
+			"genre": "Documentary",
+			"feedUrl": "https://rss.libsyn.com/shows/58763/destinations/223761.xml",
+			"blurb": "Small, carefully made true stories about modern humans and the machines, habits and histories that shape them.",
+			"link": "http://www.anxiousmachine.com",
+			"artwork": "https://static.libsyn.com/p/assets/e/d/c/0/edc0c8516a5923c2/am-3000.jpg",
+			"episodes": [
+				{
+					"slug": "all-my-days-have-been-guns-s2-e2",
+					"showSlug": "anxious-machine",
+					"title": "All My Days Have Been Guns (S2: E2)",
+					"note": "Bernard, his father's gas station, and one incident with a gun that changed everything.",
+					"guid": "1e9d8e13b52a34746846341281bca0c9",
+					"audioUrl": "https://traffic.libsyn.com/secure/anxiousmachine/S2E2_-_All_My_Days_Have_Been_Guns.mp3?dest-id=223761",
+					"fallbackUrl": null,
+					"durationSec": 1890,
+					"pubDate": "2015-06-15T07:00:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "inbox-time-machine-s1-e6",
+					"showSlug": "anxious-machine",
+					"title": "Inbox Time Machine (S1: E6)",
+					"note": "After a divorce, email became the one private line between a daughter and her father.",
+					"guid": "b62a0a711fea2b5e8af6b57d340282c0",
+					"audioUrl": "https://traffic.libsyn.com/secure/anxiousmachine/Episode_12_-_Inbox_Time_Machine.mp3?dest-id=223761",
+					"fallbackUrl": null,
+					"durationSec": 1453,
+					"pubDate": "2015-03-30T02:06:09.000Z",
+					"image": null
+				},
+				{
+					"slug": "didnt-want-to-be-conscious-s2-e1",
+					"showSlug": "anxious-machine",
+					"title": "Didn't Want to Be Conscious (S2: E1)",
+					"note": "The long history of getting intoxicated, told through one young woman's life.",
+					"guid": "3e71eb2157f20a98db4c70c9b007ed9d",
+					"audioUrl": "https://traffic.libsyn.com/secure/anxiousmachine/S2E1_-_Didnt_Want_to_Be_Conscious.mp3?dest-id=223761",
+					"fallbackUrl": null,
+					"durationSec": 1748,
+					"pubDate": "2015-06-01T19:52:49.000Z",
+					"image": null
+				}
+			]
+		},
+		{
+			"slug": "startup",
+			"title": "StartUp",
+			"hosts": "Alex Blumberg",
+			"network": "Gimlet",
+			"years": "2014–2020",
+			"status": "ended",
+			"genre": "Documentary",
+			"feedUrl": "https://feeds.megaphone.fm/startup",
+			"blurb": "Season one records, in real time, a public radio producer trying to start a podcast company. That company became Gimlet. Best heard in order.",
+			"link": "https://www.gimletmedia.com/startup",
+			"artwork": "https://megaphone.imgix.net/podcasts/f23b021e-a9a3-11e5-8768-bfc7a8ea314d/image/20210521_StartUp-ShowCover.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+			"episodes": [
+				{
+					"slug": "gimlet-1-how-not-to-pitch-a-billionaire",
+					"showSlug": "startup",
+					"title": "Gimlet 1: How Not to Pitch a Billionaire",
+					"note": "Alex Blumberg pitches his podcast company to a billionaire investor, badly.",
+					"guid": "tag:soundcloud,2010:tracks/165352308",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT6739184420.mp3",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT6739184420.mp3",
+					"durationSec": 1631,
+					"pubDate": "2014-04-06T00:00:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "gimlet-2-is-podcasting-the-future-or-the-past",
+					"showSlug": "startup",
+					"title": "Gimlet 2: Is Podcasting the Future or the Past?",
+					"note": "Is podcasting a real business, or a hobby with ads?",
+					"guid": "tag:soundcloud,2010:tracks/166357477",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT8744564157.mp3",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT8744564157.mp3",
+					"durationSec": 1452,
+					"pubDate": "2014-09-05T13:00:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "gimlet-3-how-to-divide-an-imaginary-pie",
+					"showSlug": "startup",
+					"title": "Gimlet 3: How To Divide An Imaginary Pie",
+					"note": "Splitting equity with a co-founder before there's anything to split.",
+					"guid": "tag:soundcloud,2010:tracks/168182483",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT1728211632.mp3?updated=1549298612",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT1728211632.mp3?updated=1549298612",
+					"durationSec": 1846,
+					"pubDate": "2014-09-17T13:00:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "gimlet-4-startups-are-a-risky-business",
+					"showSlug": "startup",
+					"title": "Gimlet 4: Startups are a Risky Business",
+					"note": "What Alex is risking, as his wife weighs in.",
+					"guid": "tag:soundcloud,2010:tracks/169954282",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT5172136015.mp3?updated=1549062551",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT5172136015.mp3?updated=1549062551",
+					"durationSec": 1665,
+					"pubDate": "2014-09-24T04:00:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "gimlet-5-how-to-name-your-company",
+					"showSlug": "startup",
+					"title": "Gimlet 5: How To Name Your Company",
+					"note": "Naming the company turns into an ordeal. Listeners help.",
+					"guid": "tag:soundcloud,2010:tracks/172008630",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT6609892851.mp3?updated=1549062868",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT6609892851.mp3?updated=1549062868",
+					"durationSec": 1590,
+					"pubDate": "2014-10-13T13:00:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "gimlet-6-how-to-value-your-startup",
+					"showSlug": "startup",
+					"title": "Gimlet 6: How To Value Your Startup",
+					"note": "Putting a dollar value on an idea and a microphone.",
+					"guid": "tag:soundcloud,2010:tracks/174179641",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT2186088774.mp3?updated=1549062971",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT2186088774.mp3?updated=1549062971",
+					"durationSec": 1910,
+					"pubDate": "2014-10-26T01:00:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "gimlet-7-how-listeners-become-owners",
+					"showSlug": "startup",
+					"title": "Gimlet 7: How Listeners Become Owners",
+					"note": "Raising money from the audience itself.",
+					"guid": "tag:soundcloud,2010:tracks/176185715",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT3818282921.mp3?updated=1549063230",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT3818282921.mp3?updated=1549063230",
+					"durationSec": 1965,
+					"pubDate": "2014-11-09T01:00:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "gimlet-8-our-new-show",
+					"showSlug": "startup",
+					"title": "Gimlet 8: Our New Show",
+					"note": "Building the company's first new show.",
+					"guid": "tag:soundcloud,2010:tracks/178503526",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT1817056551.mp3?updated=1549467785",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT1817056551.mp3?updated=1549467785",
+					"durationSec": 1567,
+					"pubDate": "2014-11-23T01:00:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "gimlet-9-we-made-a-mistake",
+					"showSlug": "startup",
+					"title": "Gimlet 9: We Made A Mistake",
+					"note": "A misstep, and an on-air reckoning with it.",
+					"guid": "tag:soundcloud,2010:tracks/180646134",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT9516092940.mp3",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT9516092940.mp3",
+					"durationSec": 1647,
+					"pubDate": "2014-12-07T01:00:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "gimlet-10-mixing-art-and-business",
+					"showSlug": "startup",
+					"title": "Gimlet 10: Mixing Art And Business",
+					"note": "The season ends: art versus business, and what comes next.",
+					"guid": "tag:soundcloud,2010:tracks/182742155",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT3695416453.mp3?updated=1549063585",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT3695416453.mp3?updated=1549063585",
+					"durationSec": 1777,
+					"pubDate": "2014-12-22T13:00:00.000Z",
+					"image": null
+				}
+			]
+		},
 		{
 			"slug": "mystery-show",
 			"title": "Mystery Show",
@@ -225,7 +411,7 @@
 					"note": "What if your darkest thoughts don't mean anything at all?",
 					"guid": "http://podcastdownload.npr.org/anon.npr-podcasts/podcast/510307/375981020/npr_375981020.mp3",
 					"audioUrl": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510307/npr.simplecastaudio.com/4212bb96-b3ff-452a-9fef-d7c0df1493b4/episodes/ba1be402-29a5-4b67-8f18-23de37918fa3/audio/128/default.mp3?awCollectionId=4212bb96-b3ff-452a-9fef-d7c0df1493b4&awEpisodeId=ba1be402-29a5-4b67-8f18-23de37918fa3&t=podcast&e=375981020&p=510307&d=3386",
-					"fallbackUrl": "https://play.podtrac.com/npr-510307/npr.simplecastaudio.com/4212bb96-b3ff-452a-9fef-d7c0df1493b4/episodes/ba1be402-29a5-4b67-8f18-23de37918fa3/audio/128/default.mp3?awCollectionId=4212bb96-b3ff-452a-9fef-d7c0df1493b4&awEpisodeId=ba1be402-29a5-4b67-8f18-23de37918fa3&t=podcast&e=375981020&p=510307&d=3386",
+					"fallbackUrl": "https://npr.simplecastaudio.com/4212bb96-b3ff-452a-9fef-d7c0df1493b4/episodes/ba1be402-29a5-4b67-8f18-23de37918fa3/audio/128/default.mp3?awCollectionId=4212bb96-b3ff-452a-9fef-d7c0df1493b4&awEpisodeId=ba1be402-29a5-4b67-8f18-23de37918fa3&t=podcast&e=375981020&p=510307&d=3386",
 					"durationSec": 3386,
 					"pubDate": "2015-01-09T08:45:00.000Z",
 					"image": "https://media.npr.org/assets/img/2016/04/07/thoughts_final_sq-84854de765c55020b65191d4961322a3249ebe81.jpeg?s=3000&c=66&f=jpg"
@@ -237,7 +423,7 @@
 					"note": "A blind man who sees with echoes, and the power of expectations.",
 					"guid": "http://podcastdownload.npr.org/anon.npr-podcasts/podcast/510307/379237713/npr_379237713.mp3",
 					"audioUrl": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510307/npr.simplecastaudio.com/4212bb96-b3ff-452a-9fef-d7c0df1493b4/episodes/384a6545-462c-4c13-a781-6f27cd224638/audio/128/default.mp3?awCollectionId=4212bb96-b3ff-452a-9fef-d7c0df1493b4&awEpisodeId=384a6545-462c-4c13-a781-6f27cd224638&t=podcast&e=379237713&p=510307&d=3405",
-					"fallbackUrl": "https://play.podtrac.com/npr-510307/npr.simplecastaudio.com/4212bb96-b3ff-452a-9fef-d7c0df1493b4/episodes/384a6545-462c-4c13-a781-6f27cd224638/audio/128/default.mp3?awCollectionId=4212bb96-b3ff-452a-9fef-d7c0df1493b4&awEpisodeId=384a6545-462c-4c13-a781-6f27cd224638&t=podcast&e=379237713&p=510307&d=3405",
+					"fallbackUrl": "https://npr.simplecastaudio.com/4212bb96-b3ff-452a-9fef-d7c0df1493b4/episodes/384a6545-462c-4c13-a781-6f27cd224638/audio/128/default.mp3?awCollectionId=4212bb96-b3ff-452a-9fef-d7c0df1493b4&awEpisodeId=384a6545-462c-4c13-a781-6f27cd224638&t=podcast&e=379237713&p=510307&d=3405",
 					"durationSec": 3405,
 					"pubDate": "2015-01-23T04:24:00.000Z",
 					"image": "https://media.npr.org/assets/img/2016/04/07/sonar_final_sq-487f777e439a608feff72b07f5df0476085601cb.jpeg?s=3000&c=66&f=jpg"
@@ -249,7 +435,7 @@
 					"note": "A woman who can't feel fear, and what fear does for the rest of us.",
 					"guid": "http://podcastdownload.npr.org/anon.npr-podcasts/podcast/510307/377601935/npr_377601935.mp3",
 					"audioUrl": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510307/npr.simplecastaudio.com/4212bb96-b3ff-452a-9fef-d7c0df1493b4/episodes/8228f79e-22e7-47fb-bba8-93d44fde9b35/audio/128/default.mp3?awCollectionId=4212bb96-b3ff-452a-9fef-d7c0df1493b4&awEpisodeId=8228f79e-22e7-47fb-bba8-93d44fde9b35&t=podcast&e=377601935&p=510307&d=3445",
-					"fallbackUrl": "https://play.podtrac.com/npr-510307/npr.simplecastaudio.com/4212bb96-b3ff-452a-9fef-d7c0df1493b4/episodes/8228f79e-22e7-47fb-bba8-93d44fde9b35/audio/128/default.mp3?awCollectionId=4212bb96-b3ff-452a-9fef-d7c0df1493b4&awEpisodeId=8228f79e-22e7-47fb-bba8-93d44fde9b35&t=podcast&e=377601935&p=510307&d=3445",
+					"fallbackUrl": "https://npr.simplecastaudio.com/4212bb96-b3ff-452a-9fef-d7c0df1493b4/episodes/8228f79e-22e7-47fb-bba8-93d44fde9b35/audio/128/default.mp3?awCollectionId=4212bb96-b3ff-452a-9fef-d7c0df1493b4&awEpisodeId=8228f79e-22e7-47fb-bba8-93d44fde9b35&t=podcast&e=377601935&p=510307&d=3445",
 					"durationSec": 3445,
 					"pubDate": "2015-01-16T08:08:00.000Z",
 					"image": "https://media.npr.org/assets/img/2016/04/07/2-invisibilia_sq-2ba4a393d2f11618b391398d90b62144afe7a470.jpeg?s=3000&c=66&f=jpg"
@@ -478,6 +664,360 @@
 					"durationSec": 961,
 					"pubDate": "2010-02-25T04:20:26.000Z",
 					"image": null
+				}
+			]
+		},
+		{
+			"slug": "uncivil",
+			"title": "Uncivil",
+			"hosts": "Jack Hitt, Chenjerai Kumanyika",
+			"network": "Gimlet",
+			"years": "2017–2018",
+			"status": "ended",
+			"genre": "History",
+			"feedUrl": "https://feeds.megaphone.fm/uncivil",
+			"blurb": "Stories from the Civil War that got left out of the official version, and what they say about the country now.",
+			"link": "http://uncivil.show",
+			"artwork": "https://megaphone.imgix.net/podcasts/60cff344-5135-11e7-a8cc-e3b7831c52a1/image/uploads_2F1558660601536-wozn3ad3hf-6d7f93b4725ebacce11efa05e6db5370_2F201905_Uncivil-ShowCover-Peabody.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+			"episodes": [
+				{
+					"slug": "the-raid",
+					"showSlug": "uncivil",
+					"title": "The Raid",
+					"note": "The pilot: Harriet Tubman and a raid on the Combahee River.",
+					"guid": "6d592f74-9409-11e7-b285-f76a850c5be4",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT6754684783.mp3",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT6754684783.mp3",
+					"durationSec": 1639,
+					"pubDate": "2017-10-04T10:00:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "the-deed",
+					"showSlug": "uncivil",
+					"title": "The Deed",
+					"note": "Land promised to freed people, and how it was taken back.",
+					"guid": "6d63df8c-9409-11e7-b285-7309493d2db9",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT3756393813.mp3",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT3756393813.mp3",
+					"durationSec": 1875,
+					"pubDate": "2017-10-11T10:00:00.000Z",
+					"image": null
+				}
+			]
+		},
+		{
+			"slug": "the-habitat",
+			"title": "The Habitat",
+			"hosts": "Lynn Levy",
+			"network": "Gimlet",
+			"years": "2018",
+			"status": "complete",
+			"genre": "Documentary",
+			"feedUrl": "https://feeds.megaphone.fm/thehabitat-spot",
+			"blurb": "Six strangers live for a year in a fake Mars base on a Hawaiian volcano, recording their own lives. Seven episodes, best heard in order.",
+			"link": "https://www.gimletmedia.com/the-habitat",
+			"artwork": "https://megaphone.imgix.net/podcasts/0cb5d678-261d-11eb-ae46-935b687b2be5/image/uploads_2F1558660410077-2l73lfb39lp-a6230bd08c972a699eaccc976434f9a7_2F20190109-TheHabitat-final-cover.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+			"episodes": [
+				{
+					"slug": "episode-1-this-is-the-way-up",
+					"showSlug": "the-habitat",
+					"title": "Episode 1: This Is the Way Up",
+					"note": "Part 1 of 7. The crew goes in.",
+					"guid": "ce365126-f7b6-11e7-baee-a768c7a1499c",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT5012597976.mp3",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT5012597976.mp3",
+					"durationSec": 1606,
+					"pubDate": "2018-04-18T07:00:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "episode-2-every-day-goes-by-faster-and-faster",
+					"showSlug": "the-habitat",
+					"title": "Episode 2: Every Day Goes By Faster and Faster",
+					"note": "Part 2 of 7.",
+					"guid": "c604cfa0-f7b6-11e7-943c-bb50193d60e8",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT9748523858.mp3",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT9748523858.mp3",
+					"durationSec": 1651,
+					"pubDate": "2018-04-18T07:01:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "episode-3-why-are-we-like-this",
+					"showSlug": "the-habitat",
+					"title": "Episode 3: Why Are We Like This?",
+					"note": "Part 3 of 7.",
+					"guid": "c155c982-f7b6-11e7-87eb-c766d809abe6",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT4015451706.mp3",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT4015451706.mp3",
+					"durationSec": 1595,
+					"pubDate": "2018-04-18T07:02:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "episode-4-she-likes-to-camp-alone-in-the-finnish-winter",
+					"showSlug": "the-habitat",
+					"title": "Episode 4: She Likes to Camp Alone in the Finnish Winter",
+					"note": "Part 4 of 7.",
+					"guid": "ba68e3ac-f7b6-11e7-9d38-bfa3ec066cea",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT6952350338.mp3",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT6952350338.mp3",
+					"durationSec": 1716,
+					"pubDate": "2018-04-18T07:03:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "episode-5-tortilla",
+					"showSlug": "the-habitat",
+					"title": "Episode 5: Tortilla!",
+					"note": "Part 5 of 7.",
+					"guid": "b4cf4724-f7b6-11e7-a78f-63319aa07d12",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT5723272309.mp3",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT5723272309.mp3",
+					"durationSec": 1787,
+					"pubDate": "2018-04-18T07:04:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "episode-6-i-feel-like-a-million-dollars",
+					"showSlug": "the-habitat",
+					"title": "Episode 6: I Feel Like A Million Dollars",
+					"note": "Part 6 of 7.",
+					"guid": "82e0bb4e-f7b6-11e7-a5b5-fb035eaa0a4a",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT8431526937.mp3",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT8431526937.mp3",
+					"durationSec": 1712,
+					"pubDate": "2018-04-18T07:05:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "episode-7-and-now-i-can-see-everything",
+					"showSlug": "the-habitat",
+					"title": "Episode 7: And Now I Can See Everything",
+					"note": "Part 7 of 7. The year ends.",
+					"guid": "fabcea2a-f7b6-11e7-b63a-27e70e7685e5",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT3303268487.mp3",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT3303268487.mp3",
+					"durationSec": 1915,
+					"pubDate": "2018-04-18T07:06:00.000Z",
+					"image": null
+				}
+			]
+		},
+		{
+			"slug": "everything-is-alive",
+			"title": "Everything Is Alive",
+			"hosts": "Ian Chillag",
+			"network": "Radiotopia",
+			"years": "2018–2024",
+			"status": "ended",
+			"genre": "Comedy",
+			"feedUrl": "https://feeds.feedburner.com/everythingisalive",
+			"blurb": "Unscripted interviews with inanimate objects, played by people. Funny, then suddenly not.",
+			"link": "http://www.everythingisalive.com/",
+			"artwork": "https://f.prxu.org/143/images/fc6c46d8-882a-46d2-853f-a7fd1df3978f/Everything_is_Alive.png",
+			"episodes": [
+				{
+					"slug": "louis-can-of-cola",
+					"showSlug": "everything-is-alive",
+					"title": "Louis, Can of Cola",
+					"note": "The first episode: an interview with a can of cola.",
+					"guid": "prx_143_289a661a-851b-413f-b56a-effe35a33488",
+					"audioUrl": "https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/143/289a661a-851b-413f-b56a-effe35a33488/EIA_Louis_Can_of_Cola.mp3",
+					"fallbackUrl": "https://dovetail.prxu.org/143/289a661a-851b-413f-b56a-effe35a33488/EIA_Louis_Can_of_Cola.mp3",
+					"durationSec": 1453,
+					"pubDate": "2018-07-17T04:30:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "maeve-lamppost",
+					"showSlug": "everything-is-alive",
+					"title": "Maeve, Lamppost",
+					"note": "An interview with a lamppost.",
+					"guid": "prx_143_1b882d73-7159-46d0-a09f-97fd909d78c1",
+					"audioUrl": "https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/143/1b882d73-7159-46d0-a09f-97fd909d78c1/EIA_2_Maeve_Lamppost.mp3",
+					"fallbackUrl": "https://dovetail.prxu.org/143/1b882d73-7159-46d0-a09f-97fd909d78c1/EIA_2_Maeve_Lamppost.mp3",
+					"durationSec": 1274,
+					"pubDate": "2018-07-31T04:30:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "tara-bar-of-soap",
+					"showSlug": "everything-is-alive",
+					"title": "Tara, Bar of Soap",
+					"note": "An interview with a bar of soap.",
+					"guid": "prx_143_de1e2e5c-1695-4497-a398-c41b5539e3d6",
+					"audioUrl": "https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/143/de1e2e5c-1695-4497-a398-c41b5539e3d6/EIA_4_Tara_Soap.mp3",
+					"fallbackUrl": "https://dovetail.prxu.org/143/de1e2e5c-1695-4497-a398-c41b5539e3d6/EIA_4_Tara_Soap.mp3",
+					"durationSec": 1210,
+					"pubDate": "2018-08-28T04:30:00.000Z",
+					"image": null
+				}
+			]
+		},
+		{
+			"slug": "undiscovered",
+			"title": "Undiscovered",
+			"hosts": "Elah Feder, Annie Minoff",
+			"network": "WNYC Studios / Science Friday",
+			"years": "2017–2019",
+			"status": "ended",
+			"genre": "Science",
+			"feedUrl": "https://feeds.simplecast.com/6VBaBewk",
+			"blurb": "The messy, human side of how science actually gets done.",
+			"link": "https://www.wnycstudios.org/podcasts/undiscovered",
+			"artwork": "https://image.simplecastcdn.com/images/c02c7ea9-36d9-43a4-befd-c771f493cf70/47a690e0-1b05-4c63-9b15-31019c67f04a/3000x3000/ud-podcastalbum28129.png?aid=rss_feed",
+			"episodes": [
+				{
+					"slug": "kurt-vonnegut-and-the-rainmakers",
+					"showSlug": "undiscovered",
+					"title": "Kurt Vonnegut and the Rainmakers",
+					"note": "Kurt Vonnegut's brother, and the scientists who tried to make it rain.",
+					"guid": "https://www.pri.org/programs/undiscovered/kurt-vonnegut-and-rainmakers",
+					"audioUrl": "https://pscrb.fm/rss/p/mgln.ai/e/14/pdst.fm/e/dts.podtrac.com/pts/redirect.mp3/waaa.wnyc.org/c02c7ea9-36d9-43a4-befd-c771f493cf70/episodes/2ac8e986-dd67-42fe-8e05-72d47a3961ac/audio/128/default.mp3?aid=rss_feed&awCollectionId=c02c7ea9-36d9-43a4-befd-c771f493cf70&awEpisodeId=2ac8e986-dd67-42fe-8e05-72d47a3961ac&feed=6VBaBewk",
+					"fallbackUrl": "https://waaa.wnyc.org/c02c7ea9-36d9-43a4-befd-c771f493cf70/episodes/2ac8e986-dd67-42fe-8e05-72d47a3961ac/audio/128/default.mp3?aid=rss_feed&awCollectionId=c02c7ea9-36d9-43a4-befd-c771f493cf70&awEpisodeId=2ac8e986-dd67-42fe-8e05-72d47a3961ac&feed=6VBaBewk",
+					"durationSec": 1895,
+					"pubDate": "2017-06-20T16:00:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "the-wastebook",
+					"showSlug": "undiscovered",
+					"title": "The Wastebook",
+					"note": "What happens when a politician mocks your research as waste.",
+					"guid": "https://www.pri.org/programs/undiscovered/wastebook",
+					"audioUrl": "https://pscrb.fm/rss/p/mgln.ai/e/14/pdst.fm/e/dts.podtrac.com/pts/redirect.mp3/waaa.wnyc.org/c02c7ea9-36d9-43a4-befd-c771f493cf70/episodes/18eed3ce-827c-4cf9-b138-109e3047daaa/audio/128/default.mp3?aid=rss_feed&awCollectionId=c02c7ea9-36d9-43a4-befd-c771f493cf70&awEpisodeId=18eed3ce-827c-4cf9-b138-109e3047daaa&feed=6VBaBewk",
+					"fallbackUrl": "https://waaa.wnyc.org/c02c7ea9-36d9-43a4-befd-c771f493cf70/episodes/18eed3ce-827c-4cf9-b138-109e3047daaa/audio/128/default.mp3?aid=rss_feed&awCollectionId=c02c7ea9-36d9-43a4-befd-c771f493cf70&awEpisodeId=18eed3ce-827c-4cf9-b138-109e3047daaa&feed=6VBaBewk",
+					"durationSec": 1860,
+					"pubDate": "2017-06-13T16:00:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "i-robovie",
+					"showSlug": "undiscovered",
+					"title": "I, Robovie",
+					"note": "Children, a robot, and what we owe machines.",
+					"guid": "260a5634-5446-48bd-92e0-2a2bc01e22aa",
+					"audioUrl": "https://pscrb.fm/rss/p/mgln.ai/e/14/pdst.fm/e/dts.podtrac.com/pts/redirect.mp3/waaa.wnyc.org/c02c7ea9-36d9-43a4-befd-c771f493cf70/episodes/b47ae84d-a77c-4e07-a750-cfc93b006e51/audio/128/default.mp3?aid=rss_feed&awCollectionId=c02c7ea9-36d9-43a4-befd-c771f493cf70&awEpisodeId=b47ae84d-a77c-4e07-a750-cfc93b006e51&feed=6VBaBewk",
+					"fallbackUrl": "https://waaa.wnyc.org/c02c7ea9-36d9-43a4-befd-c771f493cf70/episodes/b47ae84d-a77c-4e07-a750-cfc93b006e51/audio/128/default.mp3?aid=rss_feed&awCollectionId=c02c7ea9-36d9-43a4-befd-c771f493cf70&awEpisodeId=b47ae84d-a77c-4e07-a750-cfc93b006e51&feed=6VBaBewk",
+					"durationSec": 2037,
+					"pubDate": "2018-09-11T16:00:00.000Z",
+					"image": null
+				}
+			]
+		},
+		{
+			"slug": "theory-of-everything",
+			"title": "Benjamen Walker's Theory of Everything",
+			"hosts": "Benjamen Walker",
+			"network": "Radiotopia",
+			"years": "2013–2024",
+			"status": "ended",
+			"genre": "Documentary",
+			"feedUrl": "https://feeds.feedburner.com/TOE",
+			"blurb": "Documentary, essay and fiction blended until you're not sure which is which. That's the point.",
+			"link": "http://theoryofeverythingpodcast.com/",
+			"artwork": "https://f.prxu.org/toe/images/d628442e-fd0b-481e-8615-01b2d3002a1f/Benjamen_Walkers_Theory_of_Everything.png",
+			"episodes": [
+				{
+					"slug": "instaserfs-i-of-iii",
+					"showSlug": "theory-of-everything",
+					"title": "Instaserfs (I of III)",
+					"note": "Living on gig-economy apps. Part one of three.",
+					"guid": "http://toe.prx.org/?p=602",
+					"audioUrl": "https://dts.podtrac.com/redirect.mp3/media.blubrry.com/toe/dovetail.prxu.org/30/baca2134-b31c-4120-a288-40e26a44adc8/toe44instaserfspartone.mp3",
+					"fallbackUrl": "https://media.blubrry.com/toe/dovetail.prxu.org/30/baca2134-b31c-4120-a288-40e26a44adc8/toe44instaserfspartone.mp3",
+					"durationSec": 2100,
+					"pubDate": "2015-06-17T17:02:29.000Z",
+					"image": null
+				},
+				{
+					"slug": "instaserfs-ii-of-iii",
+					"showSlug": "theory-of-everything",
+					"title": "Instaserfs (II of III)",
+					"note": "Part two.",
+					"guid": "http://toe.prx.org/?p=614",
+					"audioUrl": "https://dts.podtrac.com/redirect.mp3/media.blubrry.com/toe/dovetail.prxu.org/30/05f04679-735e-493e-bfb0-6892180fa15f/toe45instaserfstwo.mp3",
+					"fallbackUrl": "https://media.blubrry.com/toe/dovetail.prxu.org/30/05f04679-735e-493e-bfb0-6892180fa15f/toe45instaserfstwo.mp3",
+					"durationSec": 1800,
+					"pubDate": "2015-06-24T18:16:11.000Z",
+					"image": null
+				},
+				{
+					"slug": "instaserfs-iii-of-iii",
+					"showSlug": "theory-of-everything",
+					"title": "Instaserfs (III of III)",
+					"note": "Part three.",
+					"guid": "http://toe.prx.org/?p=621",
+					"audioUrl": "https://dts.podtrac.com/redirect.mp3/media.blubrry.com/toe/dovetail.prxu.org/30/0cf3990c-5426-4f80-bca8-5508ad1b00e8/toe46instaserfsthree.mp3",
+					"fallbackUrl": "https://media.blubrry.com/toe/dovetail.prxu.org/30/0cf3990c-5426-4f80-bca8-5508ad1b00e8/toe46instaserfsthree.mp3",
+					"durationSec": 2137,
+					"pubDate": "2015-07-07T20:35:46.000Z",
+					"image": null
+				},
+				{
+					"slug": "secret-histories-of-podcasting",
+					"showSlug": "theory-of-everything",
+					"title": "Secret Histories of Podcasting",
+					"note": "The medium looks back at itself.",
+					"guid": "http://toe.prx.org/?p=671",
+					"audioUrl": "https://dts.podtrac.com/redirect.mp3/media.blubrry.com/toe/dovetail.prxu.org/30/d01f64fc-1086-432e-b958-7a99e280dfae/toepodcast54secrethistories.mp3",
+					"fallbackUrl": "https://media.blubrry.com/toe/dovetail.prxu.org/30/d01f64fc-1086-432e-b958-7a99e280dfae/toepodcast54secrethistories.mp3",
+					"durationSec": 2137,
+					"pubDate": "2015-10-22T02:27:53.000Z",
+					"image": null
+				}
+			]
+		},
+		{
+			"slug": "here-be-monsters",
+			"title": "Here Be Monsters",
+			"hosts": "Jeff Emtman",
+			"network": "Independent (formerly KCRW)",
+			"years": "2012–2025",
+			"status": "ended",
+			"genre": "Documentary",
+			"feedUrl": "https://www.hbmpodcast.com/podcast?format=rss",
+			"blurb": "Thirteen years of stories about fear, the unknown and the strange corners of ordinary life.",
+			"link": "https://www.hbmpodcast.com/",
+			"artwork": "https://images.squarespace-cdn.com/content/v1/522f5dbee4b0ad0c9681b3a5/1605467850129-QPBP9D66NNHHP0Q2WADK/2020+Logo+-+3k.jpg?format=1500w",
+			"episodes": [
+				{
+					"slug": "hbm038-do-crows-mourn-their-dead",
+					"showSlug": "here-be-monsters",
+					"title": "HBM038: Do Crows Mourn Their Dead?",
+					"note": "A question about crows, followed wherever it goes.",
+					"guid": "522f5dbee4b0ad0c9681b3a5:528d0155e4b002d32ae750e8:5410e395e4b0f3a0bb76ebe0",
+					"audioUrl": "https://dts.podtrac.com/redirect.mp3/static1.squarespace.com/static/522f5dbee4b0ad0c9681b3a5/t/5fbc34f4c832934954855d13/1606169952470/HBM038+Do+Crows+Mourn+Their+Dead.mp3",
+					"fallbackUrl": "https://static1.squarespace.com/static/522f5dbee4b0ad0c9681b3a5/t/5fbc34f4c832934954855d13/1606169952470/HBM038+Do+Crows+Mourn+Their+Dead.mp3",
+					"durationSec": null,
+					"pubDate": "2014-09-10T23:53:14.000Z",
+					"image": "https://images.squarespace-cdn.com/content/v1/522f5dbee4b0ad0c9681b3a5/1606170581789-698FQ6TTZ9ZANSUE1VQ6/038-06.jpg?format=1500w"
+				},
+				{
+					"slug": "hbm055-ghost-tape-number-ten",
+					"showSlug": "here-be-monsters",
+					"title": "HBM055: Ghost Tape Number Ten",
+					"note": "A wartime recording meant to sound like the dead.",
+					"guid": "522f5dbee4b0ad0c9681b3a5:528d0155e4b002d32ae750e8:569d7f5576d99c4f3922c77b",
+					"audioUrl": "https://dts.podtrac.com/redirect.mp3/static1.squarespace.com/static/522f5dbee4b0ad0c9681b3a5/t/5fbec8994e98326c02f42128/1606338809439/HBM055+Ghost+Tape+Number+Ten.mp3",
+					"fallbackUrl": "https://static1.squarespace.com/static/522f5dbee4b0ad0c9681b3a5/t/5fbec8994e98326c02f42128/1606338809439/HBM055+Ghost+Tape+Number+Ten.mp3",
+					"durationSec": null,
+					"pubDate": "2016-01-21T00:30:00.000Z",
+					"image": "https://images.squarespace-cdn.com/content/v1/522f5dbee4b0ad0c9681b3a5/1453247785080-LE18MG6FNHDWI0J3LEQ2/image-asset.jpeg?format=1500w"
+				},
+				{
+					"slug": "hbm159-final-haircuts",
+					"showSlug": "here-be-monsters",
+					"title": "HBM159: Final Haircuts",
+					"note": "The last episode.",
+					"guid": "522f5dbee4b0ad0c9681b3a5:528d0155e4b002d32ae750e8:67b61b4e52ba8e0f0663b8d0",
+					"audioUrl": "https://dts.podtrac.com/redirect.mp3/static1.squarespace.com/static/522f5dbee4b0ad0c9681b3a5/t/67b61b7436824e019bd89bee/1739987889972/HBM159+Final+Haircuts.mp3",
+					"fallbackUrl": "https://static1.squarespace.com/static/522f5dbee4b0ad0c9681b3a5/t/67b61b7436824e019bd89bee/1739987889972/HBM159+Final+Haircuts.mp3",
+					"durationSec": 1911,
+					"pubDate": "2025-02-19T17:56:29.000Z",
+					"image": "https://images.squarespace-cdn.com/content/v1/522f5dbee4b0ad0c9681b3a5/1739989719957-RIEHDFTYDW1VF9GUF8K1/HBM159.jpg?format=1500w"
 				}
 			]
 		}
