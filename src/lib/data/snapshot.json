@@ -1,0 +1,485 @@
+{
+	"generatedAt": "2026-10-21T00:32:55.101Z",
+	"shows": [
+		{
+			"slug": "mystery-show",
+			"title": "Mystery Show",
+			"hosts": "Starlee Kine",
+			"network": "Gimlet",
+			"years": "2015",
+			"status": "ended",
+			"genre": "Narrative",
+			"feedUrl": "https://feeds.megaphone.fm/mysteryshow",
+			"blurb": "Starlee Kine solves small mysteries that can't be solved by going online, and in the process turns strangers into friends. One season, six cases, no misses.",
+			"link": "https://www.gimletmedia.com/mystery-show",
+			"artwork": "https://megaphone.imgix.net/podcasts/abad3af0-ea13-11e5-8626-c7062f7d8e6e/image/uploads_2F1481655019634-08d8quo7r3vgkaqu-5a99c4c58e03f95ac702a77e60475ffd_2FGimletmedia_mysteryshow_gflag.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+			"episodes": [
+				{
+					"slug": "case-3-belt-buckle",
+					"showSlug": "mystery-show",
+					"title": "Case #3 Belt Buckle",
+					"note": "A mysterious belt buckle. The Atlantic's #1 podcast episode of 2015.",
+					"guid": "http://www.wnyc.org/story/case-3-belt-buckle/",
+					"audioUrl": "https://traffic.megaphone.fm/GLT1666362563.mp3?updated=1511217034",
+					"fallbackUrl": null,
+					"durationSec": 3033,
+					"pubDate": "2015-06-05T04:00:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "case-2-britney",
+					"showSlug": "mystery-show",
+					"title": "Case #2 Britney",
+					"note": "Case #2. A small pop-culture mystery that gets surprisingly moving.",
+					"guid": "http://www.wnyc.org/story/case-2-britney/",
+					"audioUrl": "https://traffic.megaphone.fm/GLT5025099642.mp3?updated=1511217022",
+					"fallbackUrl": null,
+					"durationSec": 2904,
+					"pubDate": "2015-05-30T04:00:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "case-1-video-store",
+					"showSlug": "mystery-show",
+					"title": "Case #1 Video Store",
+					"note": "Case #1. A neighborhood video store vanishes. The case that started it all.",
+					"guid": "http://www.wnyc.org/story/01-video-store/",
+					"audioUrl": "https://traffic.megaphone.fm/GLT8602568479.mp3?updated=1511201546",
+					"fallbackUrl": null,
+					"durationSec": 1482,
+					"pubDate": "2015-05-22T00:00:00.000Z",
+					"image": null
+				}
+			]
+		},
+		{
+			"slug": "reply-all",
+			"title": "Reply All",
+			"hosts": "PJ Vogt, Alex Goldman",
+			"network": "Gimlet",
+			"years": "2014–2022",
+			"status": "ended",
+			"genre": "Narrative",
+			"feedUrl": "https://feeds.megaphone.fm/replyall",
+			"blurb": "A show about the internet that was really about people. Tech support mysteries, scams, and the strange corners of being online.",
+			"link": "http://gimletmedia.com/shows/reply-all",
+			"artwork": "https://megaphone.imgix.net/podcasts/05f71746-a825-11e5-aeb5-a7a572df575e/image/uploads_2F1610700524297-f3e2p6fbm79-8b4536488226b56e93a99ce9f7b555b5_2FReplyAll_ShowArt.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+			"episodes": [
+				{
+					"slug": "102-long-distance",
+					"showSlug": "reply-all",
+					"title": "#102 Long Distance",
+					"note": "A scam call turns into a trip across the world. Two parts; start here.",
+					"guid": "7ad78a92-6e5c-11e7-a303-9ffd376c35d8",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT1346255265.mp3?updated=1660678136",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT1346255265.mp3?updated=1660678136",
+					"durationSec": 2909,
+					"pubDate": "2017-07-27T10:00:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "158-the-case-of-the-missing-hit",
+					"showSlug": "reply-all",
+					"title": "#158 The Case of the Missing Hit",
+					"note": "A man can't stop hearing a song nobody else remembers.",
+					"guid": "c10be340-e2c3-11e9-be80-433a4bca7122",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT5055930607.mp3?updated=1644002651",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT5055930607.mp3?updated=1644002651",
+					"durationSec": 3153,
+					"pubDate": "2020-03-05T06:33:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "130-the-snapchat-thief",
+					"showSlug": "reply-all",
+					"title": "#130 The Snapchat Thief",
+					"note": "Someone stole a friend's Snapchat account. Tracking them down goes further than expected.",
+					"guid": "5caadfa6-c0e6-11e7-9927-930f96e8fab4",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT8967905844.mp3?updated=1644000913",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT8967905844.mp3?updated=1644000913",
+					"durationSec": 4099,
+					"pubDate": "2018-11-08T11:00:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "79-boy-in-photo",
+					"showSlug": "reply-all",
+					"title": "#79 Boy in Photo",
+					"note": "A strange old photo, and a search for the people in it.",
+					"guid": "724b45dc-5fdd-11e6-93f4-6bc1df2c1af8",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT7135156471.mp3?updated=1660678947",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT7135156471.mp3?updated=1660678947",
+					"durationSec": 2810,
+					"pubDate": "2016-10-13T07:43:00.000Z",
+					"image": null
+				}
+			]
+		},
+		{
+			"slug": "s-town",
+			"title": "S-Town",
+			"hosts": "Brian Reed",
+			"network": "Serial Productions",
+			"years": "2017",
+			"status": "complete",
+			"genre": "Narrative",
+			"feedUrl": "https://feeds.simplecast.com/P0BiJiki",
+			"blurb": "An email about a murder in a small Alabama town becomes a portrait of one extraordinary, difficult man. Seven chapters, best heard in order.",
+			"link": "https://stownpodcast.org",
+			"artwork": "https://image.simplecastcdn.com/images/198280b3-d57c-4a19-b5cf-5da06323f149/bb86886a-34ff-4f96-a350-c6590ebb2e60/3000x3000/s-town-itunes-artwork.jpg?aid=rss_feed",
+			"episodes": [
+				{
+					"slug": "chapter-i",
+					"showSlug": "s-town",
+					"title": "Chapter I",
+					"note": "Start at the beginning. This one only works in order.",
+					"guid": "e01",
+					"audioUrl": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/nyt.simplecastaudio.com/c2a16e1a-d88d-4cda-8de9-63944be9bd1a/episodes/1be493c1-1053-46f8-b8f0-565bba15a235/audio/128/default.mp3?aid=rss_feed&awCollectionId=c2a16e1a-d88d-4cda-8de9-63944be9bd1a&awEpisodeId=1be493c1-1053-46f8-b8f0-565bba15a235&feed=P0BiJiki",
+					"fallbackUrl": "https://nyt.simplecastaudio.com/c2a16e1a-d88d-4cda-8de9-63944be9bd1a/episodes/1be493c1-1053-46f8-b8f0-565bba15a235/audio/128/default.mp3?aid=rss_feed&awCollectionId=c2a16e1a-d88d-4cda-8de9-63944be9bd1a&awEpisodeId=1be493c1-1053-46f8-b8f0-565bba15a235&feed=P0BiJiki",
+					"durationSec": 3081,
+					"pubDate": "2017-03-28T10:00:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "chapter-ii",
+					"showSlug": "s-town",
+					"title": "Chapter II",
+					"note": "The story turns somewhere nobody saw coming.",
+					"guid": "e02",
+					"audioUrl": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/nyt.simplecastaudio.com/c2a16e1a-d88d-4cda-8de9-63944be9bd1a/episodes/da4d2f30-f94c-463e-a694-8beaf9139b35/audio/128/default.mp3?aid=rss_feed&awCollectionId=c2a16e1a-d88d-4cda-8de9-63944be9bd1a&awEpisodeId=da4d2f30-f94c-463e-a694-8beaf9139b35&feed=P0BiJiki",
+					"fallbackUrl": "https://nyt.simplecastaudio.com/c2a16e1a-d88d-4cda-8de9-63944be9bd1a/episodes/da4d2f30-f94c-463e-a694-8beaf9139b35/audio/128/default.mp3?aid=rss_feed&awCollectionId=c2a16e1a-d88d-4cda-8de9-63944be9bd1a&awEpisodeId=da4d2f30-f94c-463e-a694-8beaf9139b35&feed=P0BiJiki",
+					"durationSec": 2801,
+					"pubDate": "2017-03-28T09:45:00.000Z",
+					"image": null
+				}
+			]
+		},
+		{
+			"slug": "surprisingly-awesome",
+			"title": "Surprisingly Awesome",
+			"hosts": "Adam Davidson, Adam McKay",
+			"network": "Gimlet",
+			"years": "2015–2017",
+			"status": "ended",
+			"genre": "Culture",
+			"feedUrl": "https://feeds.megaphone.fm/surprisinglyawesome",
+			"blurb": "Each episode takes something boring — mold, concrete, broccoli — and argues that it's secretly fascinating. It usually wins.",
+			"link": "https://gimletmedia.com/show/surprisingly-awesome/",
+			"artwork": "https://megaphone.imgix.net/podcasts/adb2932c-c218-11e5-8029-2780e7f74607/image/uploads_2F1479138979802-3ndd9esl21zbg72q-9ff1d8310944626c7e37c20aef3fa9ed_2FSurprisingly-Awesome-show-art-1500px.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+			"episodes": [
+				{
+					"slug": "1-mold",
+					"showSlug": "surprisingly-awesome",
+					"title": "#1 Mold",
+					"note": "The pilot. You will think about mold differently.",
+					"guid": "tag:soundcloud,2010:tracks/231417810",
+					"audioUrl": "https://traffic.megaphone.fm/GLT9049152436.mp3?updated=1511802840",
+					"fallbackUrl": null,
+					"durationSec": 1783,
+					"pubDate": "2015-11-03T16:11:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "2-free-throws",
+					"showSlug": "surprisingly-awesome",
+					"title": "#2 Free Throws",
+					"note": "Why don't basketball players shoot underhanded, if it works better?",
+					"guid": "tag:soundcloud,2010:tracks/231766890",
+					"audioUrl": "https://traffic.megaphone.fm/GLT5486288749.mp3?updated=1511802893",
+					"fallbackUrl": null,
+					"durationSec": 1868,
+					"pubDate": "2015-11-05T21:01:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "3-concrete",
+					"showSlug": "surprisingly-awesome",
+					"title": "#3 Concrete",
+					"note": "The most used material on earth, and why it matters.",
+					"guid": "tag:soundcloud,2010:tracks/233540228",
+					"audioUrl": "https://traffic.megaphone.fm/GLT6203250094.mp3?updated=1511802922",
+					"fallbackUrl": null,
+					"durationSec": 1448,
+					"pubDate": "2015-11-17T19:11:00.000Z",
+					"image": null
+				}
+			]
+		},
+		{
+			"slug": "invisibilia",
+			"title": "Invisibilia",
+			"hosts": "Lulu Miller, Alix Spiegel, Hanna Rosin",
+			"network": "NPR",
+			"years": "2015–2023",
+			"status": "ended",
+			"genre": "Science",
+			"feedUrl": "https://feeds.npr.org/510307/podcast.xml",
+			"blurb": "Stories about the invisible forces that shape human behavior: thoughts, emotions, expectations. Cancelled by NPR in 2023.",
+			"link": "https://www.npr.org/podcasts/510307/invisibilia",
+			"artwork": "https://media.npr.org/assets/img/2022/09/23/invisibilia_tile_npr-network-01_sq-94a8b38d9f7ae17255b5ea034778b45ddf5d6f6a.jpg?s=1400&c=66&f=jpg",
+			"episodes": [
+				{
+					"slug": "the-secret-history-of-thoughts",
+					"showSlug": "invisibilia",
+					"title": "The Secret History of Thoughts",
+					"note": "What if your darkest thoughts don't mean anything at all?",
+					"guid": "http://podcastdownload.npr.org/anon.npr-podcasts/podcast/510307/375981020/npr_375981020.mp3",
+					"audioUrl": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510307/npr.simplecastaudio.com/4212bb96-b3ff-452a-9fef-d7c0df1493b4/episodes/ba1be402-29a5-4b67-8f18-23de37918fa3/audio/128/default.mp3?awCollectionId=4212bb96-b3ff-452a-9fef-d7c0df1493b4&awEpisodeId=ba1be402-29a5-4b67-8f18-23de37918fa3&t=podcast&e=375981020&p=510307&d=3386",
+					"fallbackUrl": "https://play.podtrac.com/npr-510307/npr.simplecastaudio.com/4212bb96-b3ff-452a-9fef-d7c0df1493b4/episodes/ba1be402-29a5-4b67-8f18-23de37918fa3/audio/128/default.mp3?awCollectionId=4212bb96-b3ff-452a-9fef-d7c0df1493b4&awEpisodeId=ba1be402-29a5-4b67-8f18-23de37918fa3&t=podcast&e=375981020&p=510307&d=3386",
+					"durationSec": 3386,
+					"pubDate": "2015-01-09T08:45:00.000Z",
+					"image": "https://media.npr.org/assets/img/2016/04/07/thoughts_final_sq-84854de765c55020b65191d4961322a3249ebe81.jpeg?s=3000&c=66&f=jpg"
+				},
+				{
+					"slug": "how-to-become-batman",
+					"showSlug": "invisibilia",
+					"title": "How to Become Batman",
+					"note": "A blind man who sees with echoes, and the power of expectations.",
+					"guid": "http://podcastdownload.npr.org/anon.npr-podcasts/podcast/510307/379237713/npr_379237713.mp3",
+					"audioUrl": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510307/npr.simplecastaudio.com/4212bb96-b3ff-452a-9fef-d7c0df1493b4/episodes/384a6545-462c-4c13-a781-6f27cd224638/audio/128/default.mp3?awCollectionId=4212bb96-b3ff-452a-9fef-d7c0df1493b4&awEpisodeId=384a6545-462c-4c13-a781-6f27cd224638&t=podcast&e=379237713&p=510307&d=3405",
+					"fallbackUrl": "https://play.podtrac.com/npr-510307/npr.simplecastaudio.com/4212bb96-b3ff-452a-9fef-d7c0df1493b4/episodes/384a6545-462c-4c13-a781-6f27cd224638/audio/128/default.mp3?awCollectionId=4212bb96-b3ff-452a-9fef-d7c0df1493b4&awEpisodeId=384a6545-462c-4c13-a781-6f27cd224638&t=podcast&e=379237713&p=510307&d=3405",
+					"durationSec": 3405,
+					"pubDate": "2015-01-23T04:24:00.000Z",
+					"image": "https://media.npr.org/assets/img/2016/04/07/sonar_final_sq-487f777e439a608feff72b07f5df0476085601cb.jpeg?s=3000&c=66&f=jpg"
+				},
+				{
+					"slug": "fearless",
+					"showSlug": "invisibilia",
+					"title": "Fearless",
+					"note": "A woman who can't feel fear, and what fear does for the rest of us.",
+					"guid": "http://podcastdownload.npr.org/anon.npr-podcasts/podcast/510307/377601935/npr_377601935.mp3",
+					"audioUrl": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510307/npr.simplecastaudio.com/4212bb96-b3ff-452a-9fef-d7c0df1493b4/episodes/8228f79e-22e7-47fb-bba8-93d44fde9b35/audio/128/default.mp3?awCollectionId=4212bb96-b3ff-452a-9fef-d7c0df1493b4&awEpisodeId=8228f79e-22e7-47fb-bba8-93d44fde9b35&t=podcast&e=377601935&p=510307&d=3445",
+					"fallbackUrl": "https://play.podtrac.com/npr-510307/npr.simplecastaudio.com/4212bb96-b3ff-452a-9fef-d7c0df1493b4/episodes/8228f79e-22e7-47fb-bba8-93d44fde9b35/audio/128/default.mp3?awCollectionId=4212bb96-b3ff-452a-9fef-d7c0df1493b4&awEpisodeId=8228f79e-22e7-47fb-bba8-93d44fde9b35&t=podcast&e=377601935&p=510307&d=3445",
+					"durationSec": 3445,
+					"pubDate": "2015-01-16T08:08:00.000Z",
+					"image": "https://media.npr.org/assets/img/2016/04/07/2-invisibilia_sq-2ba4a393d2f11618b391398d90b62144afe7a470.jpeg?s=3000&c=66&f=jpg"
+				}
+			]
+		},
+		{
+			"slug": "crimetown",
+			"title": "Crimetown",
+			"hosts": "Marc Smerling, Zac Stuart-Pontier",
+			"network": "Gimlet",
+			"years": "2016–2018",
+			"status": "ended",
+			"genre": "True crime",
+			"feedUrl": "https://feeds.megaphone.fm/crimetown",
+			"blurb": "Season one is the story of Providence, Rhode Island: the mob, the mayor, and the city that couldn't tell them apart.",
+			"link": "https://www.gimletmedia.com/show/crimetown",
+			"artwork": "https://megaphone.imgix.net/podcasts/faf93c7c-4dcc-11e6-ba15-9b8a8c61d0b5/image/uploads_2F1558659981828-e3lgq0rbckv-164f5dbf013b2ce1f4f843edac2c1dcb_2F20171116_Crimetown-ShowCover-S2_NL+_282_29.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+			"episodes": [
+				{
+					"slug": "s1-e01-divine-providence",
+					"showSlug": "crimetown",
+					"title": "S1 E01: Divine Providence",
+					"note": "Meet Providence, and Buddy Cianci.",
+					"guid": "4833cc8e-5fdc-11e6-9d88-b75cd538e8cd",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT1591351781.mp3?updated=1505851587",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT1591351781.mp3?updated=1505851587",
+					"durationSec": 2016,
+					"pubDate": "2016-11-20T17:09:00.000Z",
+					"image": "https://megaphone.imgix.net/podcasts/4833cc8e-5fdc-11e6-9d88-b75cd538e8cd/image/uploads_2F1557106154036-sgovnntjsd-0755a101dabc8f7a3f897e854b36b1d6_2FS1EpArt_S1E1.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress"
+				},
+				{
+					"slug": "s1-e17-the-trial-of-buddy-cianci",
+					"showSlug": "crimetown",
+					"title": "S1 E17: The Trial of Buddy Cianci",
+					"note": "How the mayor's story ends.",
+					"guid": "db54b84e-5fdb-11e6-b6c0-23089b0d3fff",
+					"audioUrl": "https://chrt.fm/track/15E3G4/traffic.megaphone.fm/GLT4828104475.mp3?updated=1493579252",
+					"fallbackUrl": "https://traffic.megaphone.fm/GLT4828104475.mp3?updated=1493579252",
+					"durationSec": 1852,
+					"pubDate": "2017-04-30T19:20:00.000Z",
+					"image": "https://megaphone.imgix.net/podcasts/db54b84e-5fdb-11e6-b6c0-23089b0d3fff/image/uploads_2F1557108086168-japvofzmme-e490a5cf5ebefb57f2e91ee8e07a4d49_2FS1EpArt_S1E17.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress"
+				}
+			]
+		},
+		{
+			"slug": "wind-of-change",
+			"title": "Wind of Change",
+			"hosts": "Patrick Radden Keefe",
+			"network": "Pineapple Street / Crooked",
+			"years": "2020",
+			"status": "complete",
+			"genre": "Narrative",
+			"feedUrl": "https://feeds.megaphone.fm/wind-of-change-wide",
+			"blurb": "Did the CIA write the Scorpions' power ballad \"Wind of Change\"? A journalist chases a rumor about rock music and the end of the Cold War.",
+			"link": "https://crooked.com/podcast-series/wind-of-change/",
+			"artwork": "https://megaphone.imgix.net/podcasts/05ce62d6-8342-11ea-bee3-eff012d2ecc0/image/Wind_of_Change_-_Tribeca__1_.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+			"episodes": [
+				{
+					"slug": "1-my-friend-michael",
+					"showSlug": "wind-of-change",
+					"title": "1. My Friend Michael",
+					"note": "The rumor, and where it came from.",
+					"guid": "69891f22-8654-11ea-a2a0-6f3d0d3a22b0",
+					"audioUrl": "https://traffic.megaphone.fm/GLT8818103946.mp3?updated=1589158375",
+					"fallbackUrl": null,
+					"durationSec": 2657,
+					"pubDate": "2020-05-11T09:45:00.000Z",
+					"image": null
+				}
+			]
+		},
+		{
+			"slug": "dolly-partons-america",
+			"title": "Dolly Parton's America",
+			"hosts": "Jad Abumrad",
+			"network": "WNYC / OSM Audio",
+			"years": "2019",
+			"status": "complete",
+			"genre": "Culture",
+			"feedUrl": "https://feeds.simplecast.com/kZ0W9vjc",
+			"blurb": "Why does everyone love Dolly Parton? A nine-part look at Dolly, her songs, and the divided country that agrees on her.",
+			"link": "https://www.wnycstudios.org/podcasts/dolly-partons-america",
+			"artwork": "https://image.simplecastcdn.com/images/39fd7dfc-2399-4759-8e94-8f260efa7248/f0cdf0ef-58b5-4389-abd7-90b4b6f82bda/3000x3000/dollypartonsamerica-finalsquare.jpg?aid=rss_feed",
+			"episodes": [
+				{
+					"slug": "the-only-one-for-me-jolene",
+					"showSlug": "dolly-partons-america",
+					"title": "The Only One For Me, Jolene",
+					"note": "What \"Jolene\" is really about.",
+					"guid": "f0b86144-ce91-43ed-abbc-56b6dbf3328b",
+					"audioUrl": "https://pscrb.fm/rss/p/mgln.ai/e/14/pdst.fm/e/dts.podtrac.com/pts/redirect.mp3/waaa.wnyc.org/39fd7dfc-2399-4759-8e94-8f260efa7248/episodes/19258121-cd45-445a-8ed4-cf11dea28230/audio/128/default.mp3?aid=rss_feed&awCollectionId=39fd7dfc-2399-4759-8e94-8f260efa7248&awEpisodeId=19258121-cd45-445a-8ed4-cf11dea28230&feed=kZ0W9vjc",
+					"fallbackUrl": "https://waaa.wnyc.org/39fd7dfc-2399-4759-8e94-8f260efa7248/episodes/19258121-cd45-445a-8ed4-cf11dea28230/audio/128/default.mp3?aid=rss_feed&awCollectionId=39fd7dfc-2399-4759-8e94-8f260efa7248&awEpisodeId=19258121-cd45-445a-8ed4-cf11dea28230&feed=kZ0W9vjc",
+					"durationSec": 2170,
+					"pubDate": "2019-11-19T17:00:00.000Z",
+					"image": "https://image.simplecastcdn.com/images/2c9187d6-9dff-4257-bc55-469cf13afd48/f6015dab-1900-4f6b-87da-e7e54ff03953/3000x3000/theonlyoneformejolenedpa16x9.jpg?aid=rss_feed"
+				},
+				{
+					"slug": "sad-ass-songs",
+					"showSlug": "dolly-partons-america",
+					"title": "Sad Ass Songs",
+					"note": "Dolly's darkest songs and where they came from.",
+					"guid": "f95e7f13-9f71-4e44-9266-e8616ca1f2e1",
+					"audioUrl": "https://pscrb.fm/rss/p/mgln.ai/e/14/pdst.fm/e/dts.podtrac.com/pts/redirect.mp3/waaa.wnyc.org/39fd7dfc-2399-4759-8e94-8f260efa7248/episodes/9a4b6172-aa97-4498-9e8f-0487f1d98e24/audio/128/default.mp3?aid=rss_feed&awCollectionId=39fd7dfc-2399-4759-8e94-8f260efa7248&awEpisodeId=9a4b6172-aa97-4498-9e8f-0487f1d98e24&feed=kZ0W9vjc",
+					"fallbackUrl": "https://waaa.wnyc.org/39fd7dfc-2399-4759-8e94-8f260efa7248/episodes/9a4b6172-aa97-4498-9e8f-0487f1d98e24/audio/128/default.mp3?aid=rss_feed&awCollectionId=39fd7dfc-2399-4759-8e94-8f260efa7248&awEpisodeId=9a4b6172-aa97-4498-9e8f-0487f1d98e24&feed=kZ0W9vjc",
+					"durationSec": 3451,
+					"pubDate": "2019-10-15T16:00:00.000Z",
+					"image": "https://image.simplecastcdn.com/images/2c9187d6-9dff-4257-bc55-469cf13afd48/151a4b38-3d29-4d84-8a06-abf9b9f81ba0/3000x3000/sadasssongsdpa16x9.jpg?aid=rss_feed"
+				}
+			]
+		},
+		{
+			"slug": "limetown",
+			"title": "Limetown",
+			"hosts": "Zack Akers, Skip Bronkie",
+			"network": "Two-Up",
+			"years": "2015–2018",
+			"status": "ended",
+			"genre": "Fiction",
+			"feedUrl": "https://feeds.megaphone.fm/PPY5621646923",
+			"blurb": "A fictional public radio reporter investigates the night 300 people vanished from a research town in Tennessee. Audio drama that sounds uncomfortably real.",
+			"link": "http://www.limetown.com/",
+			"artwork": "https://megaphone.imgix.net/podcasts/220f510a-6336-11e7-a0fb-9b2952152147/image/uploads_2F1608426498388-o9ucxago2y-c4519df1bdd25f4f84e4a44b4eda1f88_2FLimetown-logo-SQ-Large-2UP-PEACOCK.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+			"episodes": [
+				{
+					"slug": "episode-1-what-we-know",
+					"showSlug": "limetown",
+					"title": "Episode 1: What We Know",
+					"note": "Episode one. Hard to stop after this.",
+					"guid": "tag:soundcloud,2010:tracks/223418016",
+					"audioUrl": "https://traffic.megaphone.fm/PPY1976106885.mp3?updated=1506978111",
+					"fallbackUrl": null,
+					"durationSec": 1921,
+					"pubDate": "2015-07-21T00:00:00.000Z",
+					"image": "https://megaphone.imgix.net/podcasts/58d1e81a-6336-11e7-831d-eb098ed3cdd1/image/artworks-000139263149-90j6rr-original.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress"
+				}
+			]
+		},
+		{
+			"slug": "alice-isnt-dead",
+			"title": "Alice Isn't Dead",
+			"hosts": "Joseph Fink",
+			"network": "Night Vale Presents",
+			"years": "2016–2018",
+			"status": "ended",
+			"genre": "Fiction",
+			"feedUrl": "https://feeds.megaphone.fm/SBP8990444845",
+			"blurb": "A truck driver crosses America searching for her wife, who was supposed to be dead. A road-trip horror story told over CB radio.",
+			"link": "http://www.aliceisntdead.com",
+			"artwork": "https://megaphone.imgix.net/podcasts/07ba09ba-3b61-11f0-8a76-a771f65122c0/image/d1d1becf89f9c9cb9e1ef31d2034a2a5.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+			"episodes": [
+				{
+					"slug": "part-1-chapter-1-omelet",
+					"showSlug": "alice-isnt-dead",
+					"title": "Part 1, Chapter 1: Omelet",
+					"note": "Part one, chapter one.",
+					"guid": "4aa5583ea34a370be4754b2e2f8d14cb",
+					"audioUrl": "https://mgln.ai/e/495/pscrb.fm/rss/p/traffic.megaphone.fm/SBP7086030698.mp3?updated=1776175949",
+					"fallbackUrl": "https://traffic.megaphone.fm/SBP7086030698.mp3?updated=1776175949",
+					"durationSec": 1321,
+					"pubDate": "2016-03-08T05:00:00.000Z",
+					"image": "https://megaphone.imgix.net/podcasts/1d073310-3b61-11f0-bbdc-37965568a9ba/image/d1d1becf89f9c9cb9e1ef31d2034a2a5.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress"
+				}
+			]
+		},
+		{
+			"slug": "longform",
+			"title": "Longform",
+			"hosts": "Aaron Lammer, Max Linsky, Evan Ratliff",
+			"network": "Longform",
+			"years": "2012–2024",
+			"status": "ended",
+			"genre": "Interview",
+			"feedUrl": "https://feeds.megaphone.fm/VMP6079657536",
+			"blurb": "Twelve years of long conversations with nonfiction writers about how they work.",
+			"link": "http://longform.org/",
+			"artwork": "https://megaphone.imgix.net/podcasts/149082da-f070-11eb-a489-8bf30eeb7113/image/Longform_tile_VoxMedia_3000x300_final.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+			"episodes": [
+				{
+					"slug": "episode-3-david-grann",
+					"showSlug": "longform",
+					"title": "Episode 3: David Grann",
+					"note": "How one of the best investigative writers finds stories.",
+					"guid": "b8e473754fb5f4b2af4a4b89590b7be9",
+					"audioUrl": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP6596311514.mp3?updated=1627565845",
+					"fallbackUrl": "https://traffic.megaphone.fm/VMP6596311514.mp3?updated=1627565845",
+					"durationSec": 3385,
+					"pubDate": "2012-08-22T15:20:00.000Z",
+					"image": "https://megaphone.imgix.net/podcasts/06200a58-f071-11eb-b931-c7d7db7ad2fc/image/image.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress"
+				}
+			]
+		},
+		{
+			"slug": "history-of-rome",
+			"title": "The History of Rome",
+			"hosts": "Mike Duncan",
+			"network": "Independent",
+			"years": "2007–2012",
+			"status": "complete",
+			"genre": "History",
+			"feedUrl": "https://rss.libsyn.com/shows/17332/destinations/5627.xml",
+			"blurb": "The whole history of the Roman Empire, from founding myth to fall, one episode at a time. The show that started a genre.",
+			"link": "http://thehistoryofrome.typepad.com/the_history_of_rome/",
+			"artwork": "https://static.libsyn.com/p/assets/1/2/f/c/12fc067020662e91/THoR_Logo_1500x1500.jpg",
+			"episodes": [
+				{
+					"slug": "001-in-the-beginning",
+					"showSlug": "history-of-rome",
+					"title": "001- In the Beginning",
+					"note": "Episode one. Settle in.",
+					"guid": "33cde82d0142aeaa882db7613212e31b",
+					"audioUrl": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/historyofrome/01-_In_the_Beginning.mp3?dest-id=5627",
+					"fallbackUrl": "https://traffic.libsyn.com/secure/historyofrome/01-_In_the_Beginning.mp3?dest-id=5627",
+					"durationSec": 709,
+					"pubDate": "2007-07-28T00:47:00.000Z",
+					"image": null
+				},
+				{
+					"slug": "003a-the-seven-kings-of-rome",
+					"showSlug": "history-of-rome",
+					"title": "003a- The Seven Kings of Rome",
+					"note": "The legendary kings, before the Republic.",
+					"guid": "d3fd6e443097263b5ed4125aa6779278",
+					"audioUrl": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/historyofrome/03a-_The_Seven_Kings_of_Rome.mp3?dest-id=5627",
+					"fallbackUrl": "https://traffic.libsyn.com/secure/historyofrome/03a-_The_Seven_Kings_of_Rome.mp3?dest-id=5627",
+					"durationSec": 961,
+					"pubDate": "2010-02-25T04:20:26.000Z",
+					"image": null
+				}
+			]
+		}
+	]
+}

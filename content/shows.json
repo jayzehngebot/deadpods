@@ -1,0 +1,216 @@
+{
+	"$comment": "Curated list. Edited by hand for now; the Google Sheet sync will generate this file later. Episode picks match on a case-insensitive piece of the episode title (or an exact guid). Run `npm run snapshot` after editing.",
+	"shows": [
+		{
+			"slug": "mystery-show",
+			"title": "Mystery Show",
+			"hosts": "Starlee Kine",
+			"network": "Gimlet",
+			"years": "2015",
+			"status": "ended",
+			"genre": "Narrative",
+			"feedUrl": "https://feeds.megaphone.fm/mysteryshow",
+			"blurb": "Starlee Kine solves small mysteries that can't be solved by going online, and in the process turns strangers into friends. One season, six cases, no misses.",
+			"picks": [
+				{
+					"title": "Belt Buckle",
+					"note": "A mysterious belt buckle. The Atlantic's #1 podcast episode of 2015."
+				},
+				{
+					"title": "Britney",
+					"note": "Case #2. A small pop-culture mystery that gets surprisingly moving."
+				},
+				{
+					"title": "Video Store",
+					"note": "Case #1. A neighborhood video store vanishes. The case that started it all."
+				}
+			]
+		},
+		{
+			"slug": "reply-all",
+			"title": "Reply All",
+			"hosts": "PJ Vogt, Alex Goldman",
+			"network": "Gimlet",
+			"years": "2014–2022",
+			"status": "ended",
+			"genre": "Narrative",
+			"feedUrl": "https://feeds.megaphone.fm/replyall",
+			"blurb": "A show about the internet that was really about people. Tech support mysteries, scams, and the strange corners of being online.",
+			"picks": [
+				{
+					"title": "Long Distance",
+					"note": "A scam call turns into a trip across the world. Two parts; start here."
+				},
+				{
+					"title": "The Case of the Missing Hit",
+					"note": "A man can't stop hearing a song nobody else remembers."
+				},
+				{
+					"title": "The Snapchat Thief",
+					"note": "Someone stole a friend's Snapchat account. Tracking them down goes further than expected."
+				},
+				{
+					"title": "Boy in Photo",
+					"note": "A strange old photo, and a search for the people in it."
+				}
+			]
+		},
+		{
+			"slug": "s-town",
+			"title": "S-Town",
+			"hosts": "Brian Reed",
+			"network": "Serial Productions",
+			"years": "2017",
+			"status": "complete",
+			"genre": "Narrative",
+			"feedUrl": "https://feeds.simplecast.com/P0BiJiki",
+			"blurb": "An email about a murder in a small Alabama town becomes a portrait of one extraordinary, difficult man. Seven chapters, best heard in order.",
+			"picks": [
+				{ "title": "Chapter I", "note": "Start at the beginning. This one only works in order." },
+				{ "title": "Chapter II", "note": "The story turns somewhere nobody saw coming." }
+			]
+		},
+		{
+			"slug": "surprisingly-awesome",
+			"title": "Surprisingly Awesome",
+			"hosts": "Adam Davidson, Adam McKay",
+			"network": "Gimlet",
+			"years": "2015–2017",
+			"status": "ended",
+			"genre": "Culture",
+			"feedUrl": "https://feeds.megaphone.fm/surprisinglyawesome",
+			"blurb": "Each episode takes something boring — mold, concrete, broccoli — and argues that it's secretly fascinating. It usually wins.",
+			"picks": [
+				{ "title": "Mold", "note": "The pilot. You will think about mold differently." },
+				{
+					"title": "Free Throws",
+					"note": "Why don't basketball players shoot underhanded, if it works better?"
+				},
+				{ "title": "Concrete", "note": "The most used material on earth, and why it matters." }
+			]
+		},
+		{
+			"slug": "invisibilia",
+			"title": "Invisibilia",
+			"hosts": "Lulu Miller, Alix Spiegel, Hanna Rosin",
+			"network": "NPR",
+			"years": "2015–2023",
+			"status": "ended",
+			"genre": "Science",
+			"feedUrl": "https://feeds.npr.org/510307/podcast.xml",
+			"blurb": "Stories about the invisible forces that shape human behavior: thoughts, emotions, expectations. Cancelled by NPR in 2023.",
+			"picks": [
+				{
+					"title": "The Secret History of Thoughts",
+					"note": "What if your darkest thoughts don't mean anything at all?"
+				},
+				{
+					"title": "How to Become Batman",
+					"note": "A blind man who sees with echoes, and the power of expectations."
+				},
+				{
+					"title": "Fearless",
+					"note": "A woman who can't feel fear, and what fear does for the rest of us."
+				}
+			]
+		},
+		{
+			"slug": "crimetown",
+			"title": "Crimetown",
+			"hosts": "Marc Smerling, Zac Stuart-Pontier",
+			"network": "Gimlet",
+			"years": "2016–2018",
+			"status": "ended",
+			"genre": "True crime",
+			"feedUrl": "https://feeds.megaphone.fm/crimetown",
+			"blurb": "Season one is the story of Providence, Rhode Island: the mob, the mayor, and the city that couldn't tell them apart.",
+			"picks": [
+				{ "title": "Divine Providence", "note": "Meet Providence, and Buddy Cianci." },
+				{ "title": "The Trial of Buddy Cianci", "note": "How the mayor's story ends." }
+			]
+		},
+		{
+			"slug": "wind-of-change",
+			"title": "Wind of Change",
+			"hosts": "Patrick Radden Keefe",
+			"network": "Pineapple Street / Crooked",
+			"years": "2020",
+			"status": "complete",
+			"genre": "Narrative",
+			"feedUrl": "https://feeds.megaphone.fm/wind-of-change-wide",
+			"blurb": "Did the CIA write the Scorpions' power ballad \"Wind of Change\"? A journalist chases a rumor about rock music and the end of the Cold War.",
+			"picks": [{ "title": "My Friend Michael", "note": "The rumor, and where it came from." }]
+		},
+		{
+			"slug": "dolly-partons-america",
+			"title": "Dolly Parton's America",
+			"hosts": "Jad Abumrad",
+			"network": "WNYC / OSM Audio",
+			"years": "2019",
+			"status": "complete",
+			"genre": "Culture",
+			"feedUrl": "https://feeds.simplecast.com/kZ0W9vjc",
+			"blurb": "Why does everyone love Dolly Parton? A nine-part look at Dolly, her songs, and the divided country that agrees on her.",
+			"picks": [
+				{ "title": "Jolene", "note": "What \"Jolene\" is really about." },
+				{ "title": "Sad Ass Songs", "note": "Dolly's darkest songs and where they came from." }
+			]
+		},
+		{
+			"slug": "limetown",
+			"title": "Limetown",
+			"hosts": "Zack Akers, Skip Bronkie",
+			"network": "Two-Up",
+			"years": "2015–2018",
+			"status": "ended",
+			"genre": "Fiction",
+			"feedUrl": "https://feeds.megaphone.fm/PPY5621646923",
+			"blurb": "A fictional public radio reporter investigates the night 300 people vanished from a research town in Tennessee. Audio drama that sounds uncomfortably real.",
+			"picks": [{ "title": "What We Know", "note": "Episode one. Hard to stop after this." }]
+		},
+		{
+			"slug": "alice-isnt-dead",
+			"title": "Alice Isn't Dead",
+			"hosts": "Joseph Fink",
+			"network": "Night Vale Presents",
+			"years": "2016–2018",
+			"status": "ended",
+			"genre": "Fiction",
+			"feedUrl": "https://feeds.megaphone.fm/SBP8990444845",
+			"blurb": "A truck driver crosses America searching for her wife, who was supposed to be dead. A road-trip horror story told over CB radio.",
+			"picks": [{ "title": "Omelet", "note": "Part one, chapter one." }]
+		},
+		{
+			"slug": "longform",
+			"title": "Longform",
+			"hosts": "Aaron Lammer, Max Linsky, Evan Ratliff",
+			"network": "Longform",
+			"years": "2012–2024",
+			"status": "ended",
+			"genre": "Interview",
+			"feedUrl": "https://feeds.megaphone.fm/VMP6079657536",
+			"blurb": "Twelve years of long conversations with nonfiction writers about how they work.",
+			"picks": [
+				{
+					"title": "David Grann",
+					"note": "How one of the best investigative writers finds stories."
+				}
+			]
+		},
+		{
+			"slug": "history-of-rome",
+			"title": "The History of Rome",
+			"hosts": "Mike Duncan",
+			"network": "Independent",
+			"years": "2007–2012",
+			"status": "complete",
+			"genre": "History",
+			"feedUrl": "https://rss.libsyn.com/shows/17332/destinations/5627.xml",
+			"blurb": "The whole history of the Roman Empire, from founding myth to fall, one episode at a time. The show that started a genre.",
+			"picks": [
+				{ "title": "In the Beginning", "note": "Episode one. Settle in." },
+				{ "title": "The Seven Kings of Rome", "note": "The legendary kings, before the Republic." }
+			]
+		}
+	]
+}
