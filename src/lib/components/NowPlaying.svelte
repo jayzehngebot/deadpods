@@ -185,13 +185,16 @@
 		text-transform: uppercase;
 	}
 	.art {
-		flex: 1 1 auto;
-		display: grid;
-		place-items: center;
-		min-height: 0;
+		flex: none;
+		display: flex;
+		justify-content: center;
+		/* Spare height goes around the artwork, so the controls sit low like an app. */
+		margin-block: auto;
 	}
 	.art img {
-		width: min(100%, 46vh);
+		/* Square, and small enough on short screens to keep the controls in view. */
+		width: min(100%, 40dvh);
+		height: auto;
 		aspect-ratio: 1;
 		object-fit: cover;
 		border-radius: 14px;

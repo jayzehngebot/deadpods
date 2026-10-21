@@ -62,6 +62,11 @@ button {
 	font: inherit;
 	color: inherit;
 	cursor: pointer;
+	/* App-like taps: no double-tap zoom delay, no grey flash, no text selection. */
+	touch-action: manipulation;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-user-select: none;
+	user-select: none;
 }
 
 :focus-visible {

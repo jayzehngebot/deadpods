@@ -108,4 +108,13 @@
 		grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr));
 		gap: 20px;
 	}
+	@media (max-width: 640px) {
+		.hero {
+			padding: 8px 0 36px;
+		}
+		.lede {
+			font-size: 1rem;
+			margin-bottom: 22px;
+		}
+	}
 </style>
