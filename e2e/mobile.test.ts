@@ -1,6 +1,7 @@
 // Phone behavior: mini player, full-screen Now Playing, home-screen install.
 // Streams real audio, so it needs network access.
 import { expect, test, type Page } from '@playwright/test';
+import { open } from './util';
 
 const bar = (page: Page) => page.getByRole('region', { name: 'Audio player' });
 const sheet = (page: Page) => page.getByRole('dialog', { name: 'Now playing' });
@@ -14,7 +15,7 @@ async function expectAdvancing(page: Page) {
 }
 
 test('Tune in sits above the fold', async ({ page }) => {
-	await page.goto('/');
+	await open(page, '/');
 	const box = await page.getByRole('button', { name: 'Tune in' }).boundingBox();
 	const height = page.viewportSize()!.height;
 	expect(box).not.toBeNull();
@@ -22,7 +23,7 @@ test('Tune in sits above the fold', async ({ page }) => {
 });
 
 test('mini player opens Now Playing, and back closes it', async ({ page }) => {
-	await page.goto('/');
+	await open(page, '/');
 	await page.getByRole('button', { name: 'Tune in' }).click();
 
 	// The mini player shows play/pause but keeps the seek bar for Now Playing.
@@ -46,13 +47,13 @@ test('mini player opens Now Playing, and back closes it', async ({ page }) => {
 });
 
 test('close button returns focus to the mini player', async ({ page }) => {
-	await page.goto('/');
+	await open(page, '/');
 	await page.getByRole('button', { name: 'Tune in' }).click();
-	const open = bar(page).getByRole('button', { name: 'Show player' });
-	await open.click();
+	const showPlayer = bar(page).getByRole('button', { name: 'Show player' });
+	await showPlayer.click();
 	await sheet(page).getByRole('button', { name: 'Close player' }).click();
 	await expect(sheet(page)).toBeHidden();
-	await expect(open).toBeFocused();
+	await expect(showPlayer).toBeFocused();
 });
 
 test('asks iOS for a playback audio session on the first tap', async ({ page }) => {
@@ -60,7 +61,7 @@ test('asks iOS for a playback audio session on the first tap', async ({ page }) 
 	await page.addInitScript(() => {
 		Object.defineProperty(navigator, 'audioSession', { value: { type: 'auto' } });
 	});
-	await page.goto('/');
+	await open(page, '/');
 	await page.getByRole('button', { name: 'Tune in' }).click();
 	await expect
 		.poll(() =>
@@ -72,7 +73,7 @@ test('asks iOS for a playback audio session on the first tap', async ({ page }) 
 });
 
 test('can be added to the home screen as an app', async ({ page, request }) => {
-	await page.goto('/');
+	await open(page, '/');
 	const manifestHref = await page.locator('link[rel="manifest"]').getAttribute('href');
 	const manifest = await (await request.get(manifestHref!)).json();
 	expect(manifest.display).toBe('standalone');

@@ -10,7 +10,11 @@
 
 	let { children }: LayoutProps = $props();
 
-	onMount(() => player.restore());
+	onMount(() => {
+		player.restore();
+		// Marks the page as interactive (buttons work). E2E tests wait for it.
+		document.documentElement.dataset.hydrated = '';
+	});
 </script>
 
 <svelte:head>

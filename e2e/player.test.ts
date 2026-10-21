@@ -1,6 +1,7 @@
 // End-to-end checks for the player's core promises. These stream real audio
 // from the podcasts' hosts, so they need network access.
 import { expect, test, type Page } from '@playwright/test';
+import { open } from './util';
 
 const bar = (page: Page) => page.getByRole('region', { name: 'Audio player' });
 const seek = (page: Page) => bar(page).getByRole('slider', { name: 'Seek' });
@@ -14,7 +15,7 @@ async function expectPlaying(page: Page) {
 }
 
 test('one tap starts radio, and it keeps playing across page changes', async ({ page }) => {
-	await page.goto('/');
+	await open(page, '/');
 	await page.getByRole('button', { name: 'Tune in' }).click();
 	await expectPlaying(page);
 	const title = await nowTitle(page).textContent();
@@ -32,7 +33,7 @@ test('one tap starts radio, and it keeps playing across page changes', async ({ 
 });
 
 test('moves on to the next episode when one ends', async ({ page }) => {
-	await page.goto('/mystery-show/');
+	await open(page, '/mystery-show/');
 	await page.getByRole('button', { name: 'Play the best of' }).click();
 	await expectPlaying(page);
 	await expect(nowTitle(page)).toHaveText('Case #3 Belt Buckle');
@@ -49,7 +50,7 @@ test('moves on to the next episode when one ends', async ({ page }) => {
 test('skips an episode whose audio is gone', async ({ page }) => {
 	// Make the first Mystery Show pick fail as if its audio had been deleted.
 	await page.route('**/GLT1666362563.mp3*', (route) => route.fulfill({ status: 404 }));
-	await page.goto('/mystery-show/');
+	await open(page, '/mystery-show/');
 	await page.getByRole('button', { name: 'Play the best of' }).click();
 
 	await expect(bar(page).getByRole('status')).toContainText('Skipped');
@@ -58,7 +59,7 @@ test('skips an episode whose audio is gone', async ({ page }) => {
 });
 
 test('a shared link offers to start at the shared time', async ({ page }) => {
-	await page.goto('/mystery-show/case-3-belt-buckle/?t=12m34s');
+	await open(page, '/mystery-show/case-3-belt-buckle/?t=12m34s');
 	const play = page.getByRole('button', { name: 'Play from 12:34' });
 	await expect(play).toBeVisible();
 	await play.click();
@@ -67,16 +68,18 @@ test('a shared link offers to start at the shared time', async ({ page }) => {
 });
 
 test('remembers where you were after a reload', async ({ page }) => {
-	await page.goto('/mystery-show/case-1-video-store/?t=300');
+	await open(page, '/mystery-show/case-1-video-store/?t=300');
 	await page.getByRole('button', { name: 'Play from 5:00' }).click();
 	await expectPlaying(page);
 	await bar(page).getByRole('button', { name: 'Pause', exact: true }).click();
 	const pausedAt = await position(page);
 
 	await page.reload();
+	await page.locator('html[data-hydrated]').waitFor({ state: 'attached' });
 	await expect(nowTitle(page)).toHaveText('Case #1 Video Store');
 	expect(Math.abs((await position(page)) - pausedAt)).toBeLessThanOrEqual(2);
 	await bar(page).getByRole('button', { name: 'Play', exact: true }).click();
 	await expectPlaying(page);
-	expect(await position(page)).toBeGreaterThanOrEqual(pausedAt);
+	// Same 2s allowance as above: the saved time can trail the last tick shown.
+	expect(await position(page)).toBeGreaterThanOrEqual(pausedAt - 2);
 });
