@@ -14,7 +14,12 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+	<link rel="manifest" href="/manifest.webmanifest" />
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 	<meta name="theme-color" content="#13151a" />
+	<meta name="apple-mobile-web-app-title" content="deadpods" />
+	<!-- Home-screen app: let the dark page run under the status bar. -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 </svelte:head>
 
 <a class="skip visually-hidden" href="#main">Skip to content</a>
@@ -59,7 +64,8 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		padding-block: 18px;
+		/* Clear the status bar / notch in the home-screen app. */
+		padding-block: calc(18px + env(safe-area-inset-top, 0px)) 18px;
 	}
 	.logo {
 		font-size: 1.5rem;
