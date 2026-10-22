@@ -81,8 +81,10 @@
 />
 
 <nav class="crumbs muted" aria-label="Breadcrumb">
-	<a href={resolve('/')}>Shows</a> /
-	<a href={resolve('/[show]', { show: show.slug })}>{show.title}</a>
+	<span class="root"><a href={resolve('/')}>Shows</a> / </span><a
+		class="back"
+		href={resolve('/[show]', { show: show.slug })}>{show.title}</a
+	>
 </nav>
 
 <article class="episode">
@@ -174,14 +176,58 @@
 	.more {
 		margin-top: 40px;
 	}
+	/* Phones: app-style episode screen. */
 	@media (max-width: 640px) {
+		.crumbs {
+			margin-bottom: 8px;
+		}
+		.root {
+			display: none;
+		}
+		.back {
+			display: inline-flex;
+			align-items: center;
+			min-height: 44px;
+			text-decoration: none;
+			font-weight: 600;
+		}
+		.back::before {
+			content: '\2039';
+			font-size: 1.6em;
+			line-height: 1;
+			margin-right: 6px;
+		}
 		.episode {
 			flex-direction: column;
-			gap: 20px;
+			gap: 16px;
 		}
 		img {
-			width: 180px;
-			height: 180px;
+			align-self: center;
+			width: min(190px, 50vw);
+			height: auto;
+			aspect-ratio: 1;
+			box-shadow: 0 12px 32px rgb(0 0 0 / 0.45);
+		}
+		.show {
+			font-size: 0.9rem;
+		}
+		h1 {
+			font-size: 1.45rem;
+			margin-bottom: 0.35em;
+		}
+		.note {
+			font-size: 1rem;
+			margin: 0 0 6px;
+		}
+		.actions {
+			margin-top: 14px;
+		}
+		.actions :global(.btn-primary) {
+			flex: 1;
+			justify-content: center;
+		}
+		.more {
+			margin-top: 28px;
 		}
 	}
 </style>

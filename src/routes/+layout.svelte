@@ -32,7 +32,7 @@
 <header class="wrap site-header">
 	<a class="logo" href={resolve('/')}>dead<span class="text-gradient">pods</span></a>
 	<nav aria-label="Main">
-		<a href={resolve('/')}>Shows</a>
+		<a class="nav-shows" href={resolve('/')}>Shows</a>
 		<a href={resolve('/about')}>About</a>
 	</nav>
 </header>
@@ -100,5 +100,34 @@
 	.site-footer {
 		padding-block: 48px 32px;
 		font-size: 0.875rem;
+	}
+	/* Phones: a pinned app bar instead of a page header. */
+	@media (max-width: 640px) {
+		.site-header {
+			position: sticky;
+			top: 0;
+			z-index: 5;
+			width: 100%;
+			padding: calc(10px + env(safe-area-inset-top, 0px)) 16px 10px;
+			margin-bottom: 8px;
+			background: color-mix(in srgb, var(--bg) 88%, transparent);
+			backdrop-filter: blur(12px);
+			-webkit-backdrop-filter: blur(12px);
+			border-bottom: 1px solid color-mix(in srgb, var(--border) 60%, transparent);
+		}
+		.logo {
+			font-size: 1.25rem;
+		}
+		/* The logo already goes to the show list. */
+		.nav-shows {
+			display: none;
+		}
+		nav a {
+			padding: 8px 10px;
+			font-size: 0.95rem;
+		}
+		.site-footer {
+			display: none;
+		}
 	}
 </style>

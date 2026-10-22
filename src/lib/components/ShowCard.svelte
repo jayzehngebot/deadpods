@@ -82,4 +82,41 @@
 	.count {
 		font-size: 0.85rem;
 	}
+	/* Phones: library-style artwork tiles. Tap a tile to open the show. */
+	@media (max-width: 640px) {
+		.card {
+			background: none;
+			border: none;
+			border-radius: 0;
+			overflow: visible;
+		}
+		img {
+			border-radius: 10px;
+		}
+		.card:focus-within img {
+			outline: 3px solid var(--accent-strong);
+			outline-offset: 2px;
+		}
+		.body {
+			padding: 8px 0 0;
+		}
+		h3 {
+			font-size: 0.95rem;
+			line-height: 1.25;
+		}
+		h3 a:focus-visible {
+			outline: none;
+		}
+		.meta {
+			font-size: 0.8rem;
+			margin: 0;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+		.blurb,
+		.actions {
+			display: none;
+		}
+	}
 </style>

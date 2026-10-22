@@ -33,7 +33,7 @@
 <Seo title={show.title} description={show.blurb} image={show.artwork} {jsonLd} />
 
 <nav class="crumbs muted" aria-label="Breadcrumb">
-	<a href={resolve('/')}>Shows</a> / {show.title}
+	<a class="back" href={resolve('/')}>Shows</a><span class="here"> / {show.title}</span>
 </nav>
 
 <article>
@@ -153,13 +153,74 @@
 	.source {
 		margin-top: 28px;
 	}
+	/* Phones: app-style show screen. */
 	@media (max-width: 640px) {
+		.crumbs {
+			margin-bottom: 8px;
+		}
+		.here {
+			display: none;
+		}
+		.back {
+			display: inline-flex;
+			align-items: center;
+			min-height: 44px;
+			text-decoration: none;
+			font-weight: 600;
+		}
+		.back::before {
+			content: '\2039';
+			font-size: 1.6em;
+			line-height: 1;
+			margin-right: 6px;
+		}
 		.head {
 			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			gap: 14px;
+			margin-bottom: 24px;
 		}
 		.head img {
-			width: 160px;
-			height: 160px;
+			width: min(180px, 48vw);
+			height: auto;
+			aspect-ratio: 1;
+			box-shadow: 0 12px 32px rgb(0 0 0 / 0.45);
+		}
+		h1 {
+			font-size: 1.6rem;
+			margin-bottom: 0.25em;
+		}
+		.meta {
+			font-size: 0.9rem;
+		}
+		.tags {
+			justify-content: center;
+		}
+		.blurb {
+			font-size: 0.95rem;
+			margin-bottom: 16px;
+		}
+		.episodes {
+			gap: 0;
+			border-top: 1px solid var(--border);
+		}
+		.episodes li {
+			padding: 14px 0;
+			background: none;
+			border: none;
+			border-bottom: 1px solid var(--border);
+			border-radius: 0;
+			gap: 14px;
+		}
+		h3 {
+			font-size: 1rem;
+		}
+		h3 a {
+			text-decoration: none;
+		}
+		.episodes p {
+			font-size: 0.9rem;
 		}
 	}
 </style>
